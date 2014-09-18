@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>gaea-foundation</artifactId>
+        <groupId>gaea</groupId>
+        <version>1.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>gaea-core</artifactId>
+
+    <build>
+        <finalName>gaea-core-${project.version}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <argLine>-Dfile.encoding=UTF-8</argLine>
+                    <!--打包时是否略过测试-->
+                    <skip>true</skip>
+                    <!--测试出现错误时是否忽略，如果为true，则会直接打包-->
+                    <!--<testFailureIgnore>true</testFailureIgnore>-->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
