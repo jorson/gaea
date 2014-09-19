@@ -33,6 +33,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="gaea" target="1.6" />
+      <module name="gaea-access-hibernate" target="1.6" />
       <module name="gaea-core" target="1.6" />
     </bytecodeTargetLevel>
   </component>

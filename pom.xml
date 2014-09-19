@@ -37,7 +37,7 @@
         <c3p0.version>0.9.1.2</c3p0.version>
         <aspectj.version>1.8.0</aspectj.version>
         <httpclient.version>4.3.3</httpclient.version>
-
+        <gaea.version>1.0.1-SNAPSHOT</gaea.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.test.failure.ignore>true</maven.test.failure.ignore>
