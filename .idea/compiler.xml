@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="gaea-access-hibernate" />
         <module name="gaea-access-mongodb" />
+        <module name="gaea-access-mybatis" />
         <module name="gaea-access-redis" />
         <module name="gaea-core" />
         <module name="gaea-platform-batch" />
@@ -34,7 +35,10 @@
     <bytecodeTargetLevel>
       <module name="gaea" target="1.6" />
       <module name="gaea-access-hibernate" target="1.6" />
+      <module name="gaea-access-mongodb" target="1.6" />
+      <module name="gaea-access-mybatis" target="1.6" />
       <module name="gaea-core" target="1.6" />
+      <module name="gaea-platform-security" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

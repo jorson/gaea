@@ -4,19 +4,23 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>gaea-foundation</artifactId>
-        <groupId>gaea</groupId>
+        <groupId>gaea.foundation</groupId>
         <version>1.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>gaea.access.hibernate</groupId>
-    <artifactId>gaea-access-hibernate</artifactId>
+    <groupId>gaea.foundation</groupId>
+    <artifactId>gaea-gaea.platform.security.access-hibernate</artifactId>
+
+    <properties>
+        <mysqlconnector.version>5.1.30</mysqlconnector.version>
+    </properties>
 
     <dependencies>
         <dependency>
             <groupId>gaea.foundation</groupId>
             <artifactId>gaea-core</artifactId>
-            <version>1.0.1-SNAPSHOT</version>
+            <version>${gaea.version}</version>
         </dependency>
         <!--database-->
         <dependency>
@@ -59,7 +63,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.30</version>
+            <version>${mysqlconnector.version}</version>
         </dependency>
 
     </dependencies>
