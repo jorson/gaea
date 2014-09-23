@@ -2,14 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b410b95d-7e14-48e1-9104-fa9d429a1f55" name="Default" comment="">
-      <change type="DELETED" beforePath="L:\CodeInGit\gaea\core\src\test\java\Test.java" afterPath="" />
-      <change type="DELETED" beforePath="L:\CodeInGit\gaea\hibernate\src\main\java\gaea\access\hibernate\Test.java" afterPath="" />
+      <change type="DELETED" beforePath="E:\CodeInGit\gaea\mongodb\src\main\java\Test.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/startup/support/ContextAlreadyStartupException.java" afterPath="$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/startup/support/ContextAlreadyStartupException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/utils/csv/CsvReader.java" afterPath="$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/utils/csv/CsvReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/utils/csv/CsvWriter.java" afterPath="$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/utils/csv/CsvWriter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/utils/xstream/MapConverter.java" afterPath="$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/utils/xstream/MapConverter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/test/java/gaea/foundation/core/utils/ObjectUtilsTest.java" afterPath="$PROJECT_DIR$/core/src/test/java/gaea/foundation/core/utils/ObjectUtilsTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hibernate/gaea-access-hibernate.iml" afterPath="$PROJECT_DIR$/hibernate/gaea-access-hibernate.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mongodb/gaea-access-mongodb.iml" afterPath="$PROJECT_DIR$/mongodb/gaea-access-mongodb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/gaea-platform-security.iml" afterPath="$PROJECT_DIR$/security/gaea-platform-security.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/pom.xml" afterPath="$PROJECT_DIR$/core/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hibernate/pom.xml" afterPath="$PROJECT_DIR$/hibernate/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mongodb/pom.xml" afterPath="$PROJECT_DIR$/mongodb/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redis/pom.xml" afterPath="$PROJECT_DIR$/redis/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/pom.xml" afterPath="$PROJECT_DIR$/security/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pom.xml" afterPath="$PROJECT_DIR$/web/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gaea.iws" />
@@ -74,109 +84,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HibernateEntityExtendDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/HibernateEntityExtendDao.java">
+      <file leaf-file-name="UserSecurityMetadataSource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/support/UserSecurityMetadataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="41" selection-start="1941" selection-end="1941" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="3587">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1445#1475#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HibernateGenericDao.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/HibernateGenericDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="360" column="26" selection-start="9881" selection-end="9881" vertical-scroll-proportion="0.59016395" vertical-offset="5616" max-vertical-offset="15368">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HibernateShardDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/HibernateShardDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="14" selection-start="2045" selection-end="2045" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="3859">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HibernateInterceptor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/support/HibernateInterceptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="46" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="2295" max-vertical-offset="3026">
+            <state line="3" column="11" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1566">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HibernateQueryParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/support/HibernateQueryParser.java">
+      <file leaf-file-name="SecurityTag.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/tags/SecurityTag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="3" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2958">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Order.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/query/criterion/Order.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1615">
-              <folding>
-                <element signature="e#1331#1332#0" expanded="false" />
-                <element signature="e#1366#1367#0" expanded="false" />
-                <element signature="e#1402#1403#0" expanded="false" />
-                <element signature="e#1434#1435#0" expanded="false" />
-                <element signature="e#1471#1472#0" expanded="false" />
-                <element signature="e#1504#1505#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HibernateTemplate.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/support/HibernateTemplate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="44" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14620">
+            <state line="4" column="28" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1098">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HibernateUtils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/support/HibernateUtils.java">
+      <file leaf-file-name="DomainInstanceKeyHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/utils/DomainInstanceKeyHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="39" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2822">
+            <state line="3" column="11" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="954">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HibernateDaoSupport.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/support/HibernateDaoSupport.java">
+      <file leaf-file-name="HttpUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/utils/HttpUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="19" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1190">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="2" column="11" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2340">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HibernateEntityDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/HibernateEntityDao.java">
+      <file leaf-file-name="CaptchaFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/web/captcha/CaptchaFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="41" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="4369">
+            <state line="3" column="11" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="3636">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CaptchaFilter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/web/captcha/CaptchaFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="11" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CaptchaInterceptor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/web/captcha/CaptchaInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="11" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CaptchaValidator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/web/captcha/CaptchaValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="11" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthenticationProcessingFilter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/web/AuthenticationProcessingFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="11" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="2394">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityFilter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/web/SecurityFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="49" selection-start="1239" selection-end="1239" vertical-scroll-proportion="0.5276753" vertical-offset="218" max-vertical-offset="2754">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -198,36 +190,57 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/core/src/main/java/geaa/foundation/core/utils/csv/CsvReader.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/geaa/foundation/core/bo/AuditableEntityObject.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/geaa/foundation/core/Constant.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/geaa/foundation/core/bo/EntityObject.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/geaa/foundation/core/cache/AbstractCache.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/geaa/foundation/core/cache/Cache.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/service/DomainService.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/service/AbstractService.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/cache/ehcache/EhCacheProvider.java" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/Test.java" />
-        <option value="$PROJECT_DIR$/core/src/test/java/gaea/foundation/core/cache/OsCacheTest.java" />
-        <option value="$PROJECT_DIR$/core/src/test/java/gaea/foundation/core/cache/RedisCacheTest.java" />
-        <option value="$PROJECT_DIR$/core/src/test/java/gaea/foundation/core/cache/SimpleCacheTest.java" />
-        <option value="$PROJECT_DIR$/core/src/test/java/gaea/foundation/core/repository/extend/UndeletableSupportTypeTest.java" />
-        <option value="$PROJECT_DIR$/core/src/test/java/gaea/foundation/core/repository/support/SqlUtilsTest.java" />
-        <option value="$PROJECT_DIR$/core/src/test/java/gaea/foundation/core/utils/BeanUtilsTest.java" />
-        <option value="$PROJECT_DIR$/core/src/test/java/gaea/foundation/core/utils/CollectionUtilsTest.java" />
-        <option value="$PROJECT_DIR$/core/src/test/java/gaea/foundation/core/utils/ObjectUtilsJsonTest.java" />
-        <option value="$PROJECT_DIR$/core/src/test/java/gaea/foundation/core/cache/EhCacheTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/core/pom.xml" />
         <option value="$PROJECT_DIR$/hibernate/pom.xml" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/support/HibernateUtils.java" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/support/HibernateInterceptor.java" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/support/HibernateQueryParser.java" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/support/HibernateTemplate.java" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/HibernateEntityDao.java" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/HibernateEntityExtendDao.java" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/HibernateShardDao.java" />
-        <option value="$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/HibernateGenericDao.java" />
+        <option value="$PROJECT_DIR$/mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/mongodb/src/main/java/gaea/access/mongodb/MongodbEntityDao.java" />
+        <option value="$PROJECT_DIR$/mongodb/src/main/java/gaea/access/mongodb/MongodbUtils.java" />
+        <option value="$PROJECT_DIR$/mongodb/src/main/java/gaea/access/mongodb/support/MongodbQueryParser.java" />
+        <option value="$PROJECT_DIR$/mongodb/src/main/java/gaea/access/mongodb/MongodbGenericDao.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/access/AccessGrant.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/domain/DomainInstanceAccess.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/framework/DomainDefine.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/framework/Security.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/authorization/HuaYuGrantedAuthority.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/authorization/Resource.java" />
+        <option value="$PROJECT_DIR$/security/pom.xml" />
+        <option value="$PROJECT_DIR$/security/src/main/java/access/AuthenticatedVoter.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/access/AuthenticatedVoter.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/AuthenticationService.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/ResourceDefinitionResolver.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/SecurityService.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/access/ResourceAttribute.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/authorization/HuaYuGrantedAuthority.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/framework/DefaultNoPurviewDealer.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/framework/DomainManager.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/framework/DomainRegister.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/domain/Domain.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/domain/Purview.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/service/UserAccessService.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/domain/UserAccess.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/authorization/Resource.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/context/UserContext.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/domain/DomainInstanceAccess.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/domain/Role.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/framework/PurviewJudger.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/framework/PurviewManger.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/framework/SecurityScanner.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/DatabaseSecurityConstant.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/internal/ResourceDefinitionResolverImpl.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/internal/SecurityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/service/PurviewService.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/support/AccessDecisionManager.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/support/SecurityConstant.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/support/UserSecurityMetadataSource.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/tags/SecurityTag.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/utils/DomainInstanceKeyHelper.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/utils/HttpUtil.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/web/captcha/CaptchaFactory.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/web/captcha/CaptchaFilter.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/web/captcha/CaptchaInterceptor.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/web/captcha/CaptchaValidator.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/web/AuthenticationProcessingFilter.java" />
+        <option value="$PROJECT_DIR$/security/src/main/java/gaea/platform/security/web/SecurityFilter.java" />
       </list>
     </option>
   </component>
@@ -245,7 +258,41 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="gaea-platform-security" />
+          <option name="myItemId" value="gaea-core" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="gaea-core" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="gaea-access-hibernate" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="gaea-access-hibernate" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -256,9 +303,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
-    <option name="width" value="1920" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -318,7 +366,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -332,21 +380,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -358,7 +398,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mongodb" />
+              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -367,10 +407,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -385,7 +421,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="editor" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -393,14 +429,17 @@
     <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="FullScreen" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="gaea.access.hibernate" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="L:\CodeInGit\gaea\core\src\test\java\gaea\foundation\core" />
-      <recent name="L:\CodeInGit\gaea\hibernate\src\main\java\gaea\access\hibernate" />
+      <recent name="E:\CodeInGit\gaea\security\src\main\java" />
+      <recent name="E:\CodeInGit\gaea\mongodb\src\main\java\gaea\access\mongodb" />
       <recent name="E:\CodeInGit\gaea\core\src\main\java\gaea\foundation\core" />
       <recent name="E:\CodeInGit\gaea\core\src\main\java\geaa\foundation\core" />
     </key>
@@ -652,16 +691,18 @@
       <created>1411056046024</created>
       <updated>1411056046024</updated>
       <workItem from="1411056056080" duration="1848000" />
-      <workItem from="1411134991700" duration="237000" />
-      <workItem from="1411135329929" duration="1885000" />
+      <workItem from="1411134991700" duration="862000" />
+      <workItem from="1411206158006" duration="591000" />
+      <workItem from="1411206860944" duration="1939000" />
+      <workItem from="1411290356700" duration="1830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3970000" />
+    <option name="totallyTimeSpent" value="7070000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1920" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -669,7 +710,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -678,17 +719,17 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11764706" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20535715" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27672035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -713,317 +754,467 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hibernate/src/test/java/Test.java">
+    <entry file="file://$PROJECT_DIR$/mongodb/src/main/java/gaea/access/mongodb/support/MongodbDaoSupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="187">
+        <state line="11" column="22" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mongodb/src/test/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mongodb/src/main/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="579" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="579" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/gaea-core.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/service/DomainService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="579" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/bo/AuditableEntityObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="22" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/bo/EntityObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="22" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="609" max-vertical-offset="1188" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/query/criterion/Conjunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/service/AbstractService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="540" selection-end="540" vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="4320" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/cache/ehcache/EhCacheProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="35" selection-start="1036" selection-end="1037" vertical-scroll-proportion="0.31606218" vertical-offset="465" max-vertical-offset="1044" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/test/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mongodb/src/test/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="198">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mongodb/src/main/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mongodb/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="579">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/test/java/gaea/foundation/core/cache/OsCacheTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4216">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/test/java/gaea/foundation/core/cache/RedisCacheTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5015">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/test/java/gaea/foundation/core/cache/SimpleCacheTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4505">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/test/java/gaea/foundation/core/repository/extend/UndeletableSupportTypeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/test/java/gaea/foundation/core/repository/support/SqlUtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/test/java/gaea/foundation/core/utils/BeanUtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3060">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/test/java/gaea/foundation/core/utils/CollectionUtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/test/java/gaea/foundation/core/utils/ObjectUtilsJsonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3366">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/test/java/gaea/foundation/core/cache/EhCacheTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="54" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="4114">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7782#8047#0" expanded="true" />
-            <element signature="e#8028#8029#0" expanded="true" />
-            <element signature="e#8299#8564#0" expanded="true" />
-            <element signature="e#8545#8546#0" expanded="true" />
-            <element signature="e#8984#9249#0" expanded="true" />
-            <element signature="e#9230#9231#0" expanded="true" />
-            <element signature="e#9508#9773#0" expanded="true" />
-            <element signature="e#9754#9755#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="36" selection-start="1744" selection-end="1744" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="4250">
+        <state line="6" column="38" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4500">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="452" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+        <state line="6" column="17" selection-start="341" selection-end="356" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongodb/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="44" selection-start="1644" selection-end="1644" vertical-scroll-proportion="0.0" vertical-offset="309" max-vertical-offset="1332">
+          <folding>
+            <marker date="1411293526514" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongodb/src/main/java/gaea/access/mongodb/MongodbUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1746">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongodb/src/main/java/gaea/access/mongodb/support/MongodbQueryParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="22" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="972" max-vertical-offset="3762">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongodb/src/main/java/gaea/access/mongodb/MongodbEntityDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="101" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="7650">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/EntityRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="17" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="2394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongodb/src/main/java/gaea/access/mongodb/MongodbGenericDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="33" selection-start="497" selection-end="497" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="7956">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/framework/DomainDefine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="3" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/framework/Security.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="3" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="558">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hibernate/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="33" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
+        <state line="5" column="0" selection-start="275" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/support/HibernateAccessor.java">
+    <entry file="file://$PROJECT_DIR$/security/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="1819">
+        <state line="162" column="12" selection-start="6437" selection-end="6437" vertical-scroll-proportion="0.0" vertical-offset="2397" max-vertical-offset="3042">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/support/HibernateUtils.java">
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/access/AccessGrant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="39" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2822">
+        <state line="9" column="17" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/support/HibernateDaoSupport.java">
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/access/AuthenticatedVoter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="19" selection-start="469" selection-end="469" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1190">
+        <state line="13" column="13" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1260">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/support/HibernateInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/AuthenticationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="46" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="2295" max-vertical-offset="3026">
+        <state line="2" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/ResourceDefinitionResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1098">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/query/criterion/Order.java">
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/SecurityService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1615">
-          <folding>
-            <element signature="e#1331#1332#0" expanded="false" />
-            <element signature="e#1366#1367#0" expanded="false" />
-            <element signature="e#1402#1403#0" expanded="false" />
-            <element signature="e#1434#1435#0" expanded="false" />
-            <element signature="e#1471#1472#0" expanded="false" />
-            <element signature="e#1504#1505#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/support/HibernateQueryParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="3" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2958">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/support/HibernateTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="44" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="14620">
+        <state line="3" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/HibernateEntityDao.java">
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/access/ResourceAttribute.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="41" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="4369">
+        <state line="2" column="0" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1908">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/HibernateEntityExtendDao.java">
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/authorization/HuaYuGrantedAuthority.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="41" selection-start="1941" selection-end="1941" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="3587">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1445#1475#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/HibernateShardDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="14" selection-start="2045" selection-end="2045" vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="3859">
+        <state line="2" column="0" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/HibernateGenericDao.java">
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/framework/DefaultNoPurviewDealer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="360" column="26" selection-start="9881" selection-end="9881" vertical-scroll-proportion="0.59016395" vertical-offset="5616" max-vertical-offset="15368">
+        <state line="2" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/framework/DomainManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="828">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/domain/Domain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="11" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/framework/DomainRegister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="11" selection-start="2094" selection-end="2094" vertical-scroll-proportion="0.0" vertical-offset="1242" max-vertical-offset="2664">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/domain/Purview.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="5" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1746">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/service/UserAccessService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="61" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="2358">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/domain/UserAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="17" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" vertical-offset="702" max-vertical-offset="1512">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#478#500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/authorization/Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="11" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="2682">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/context/UserContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="11" selection-start="97" selection-end="97" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="4176">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/domain/DomainInstanceAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="15" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0" vertical-offset="611" max-vertical-offset="3042">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="11" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2016">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/framework/PurviewJudger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="11" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/framework/PurviewManger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="11" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="936">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/framework/SecurityScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="404" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="1170">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/DatabaseSecurityConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="14" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/internal/ResourceDefinitionResolverImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="11" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="2628">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/internal/SecurityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="11" selection-start="53" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="1656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/service/PurviewService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="11" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/service/RoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/support/AccessDecisionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="11" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/support/SecurityConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="11" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3222">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/support/UserSecurityMetadataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="11" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1566">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/tags/SecurityTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="28" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1098">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/utils/DomainInstanceKeyHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="11" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="954">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/utils/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="11" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/web/captcha/CaptchaFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="11" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="3636">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/web/captcha/CaptchaFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="11" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/web/captcha/CaptchaInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/web/captcha/CaptchaValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="11" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/web/AuthenticationProcessingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="11" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="2394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/src/main/java/gaea/platform/security/web/SecurityFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="49" selection-start="1239" selection-end="1239" vertical-scroll-proportion="0.5276753" vertical-offset="218" max-vertical-offset="2754">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>gaea-access-mongodb</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

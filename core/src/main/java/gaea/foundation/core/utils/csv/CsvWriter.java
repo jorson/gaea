@@ -500,7 +500,7 @@ public class CsvWriter {
 					outputStream.close();
 				}
 			} catch (Exception e) {
-				// just eat the exception
+				// just eat the gaea.platform.security.exception
 			}
 
 			outputStream = null;

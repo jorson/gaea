@@ -1246,7 +1246,7 @@ public class CsvReader {
     }
 
     /**
-     * @throws java.io.IOException Thrown if a very rare extreme exception occurs during
+     * @throws java.io.IOException Thrown if a very rare extreme gaea.platform.security.exception occurs during
      *                             parsing, normally resulting from improper data format.
      */
     private void endColumn() throws IOException {
@@ -1522,7 +1522,7 @@ public class CsvReader {
                     inputStream.close();
                 }
             } catch (Exception e) {
-                // just eat the exception
+                // just eat the gaea.platform.security.exception
             }
 
             inputStream = null;

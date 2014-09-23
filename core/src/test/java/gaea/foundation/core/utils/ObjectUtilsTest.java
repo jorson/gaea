@@ -43,7 +43,7 @@ public class ObjectUtilsTest {
 
     public static String getTestObjectXmlString() {
         return new StringBuilder()
-                .append("<com.huayu.foundation.core.utils.object.TestObject>")
+                .append("<com.huayu.foundation.core.gaea.platform.security.utils.object.TestObject>")
                 .append("<id>100</id>")
                 .append("<name>测试</name>")
                 .append("<birthday>1999-04-03 00:00:00</birthday>")
@@ -53,7 +53,7 @@ public class ObjectUtilsTest {
                         "<entry><string>attr_02</string><string>属性02</string></entry>").append(
                         "<entry><string>attr_01</string><string>属性01</string></entry>").append(
                         "</attributes>")
-                .append("</com.huayu.foundation.core.utils.object.TestObject>").toString();
+                .append("</com.huayu.foundation.core.gaea.platform.security.utils.object.TestObject>").toString();
     }
 
     public static String getMapXmlString() {

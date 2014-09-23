@@ -146,7 +146,7 @@ public class MapConverter extends com.thoughtworks.xstream.converters.collection
 
     protected Object createObject(Class type) {
         if (!Map.class.isAssignableFrom(type)) {
-            throw new IllegalArgumentException("Donot support class " + type.getName());
+            throw new IllegalArgumentException("Donot gaea.platform.security.support class " + type.getName());
         }
         try {
             return type.newInstance();

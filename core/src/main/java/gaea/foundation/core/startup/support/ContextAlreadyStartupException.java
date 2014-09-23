@@ -10,6 +10,6 @@ import gaea.foundation.core.exception.BaseRuntimeException;
 public class ContextAlreadyStartupException extends BaseRuntimeException {
 
     public ContextAlreadyStartupException() {
-        super("the spring context is alread started, please don't set new config locations");
+        super("the spring gaea.platform.security.context is alread started, please don't set new config locations");
     }
 }

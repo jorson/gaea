@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>gaea</groupId>
+    <groupId>gaea.foundation</groupId>
     <artifactId>gaea-foundation</artifactId>
     <packaging>pom</packaging>
     <version>1.0.1-SNAPSHOT</version>
@@ -12,7 +12,7 @@
         <module>core</module>
         <module>mongodb</module>
         <module>redis</module>
-        <module>web</module>
+        <module>gaea.platform.security.web</module>
         <module>hibernate</module>
         <module>batch</module>
         <module>security</module>
@@ -147,12 +147,12 @@
     </dependency>
     <dependency>
         <groupId>org.springframework</groupId>
-        <artifactId>spring-context</artifactId>
+        <artifactId>spring-gaea.platform.security.context</artifactId>
         <version>${spring.version}</version>
     </dependency>
     <dependency>
         <groupId>org.springframework</groupId>
-        <artifactId>spring-context-support</artifactId>
+        <artifactId>spring-gaea.platform.security.context-gaea.platform.security.support</artifactId>
         <version>${spring.version}</version>
     </dependency>
 
