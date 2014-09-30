@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/batch/gaea-platform-batch.iml" filepath="$PROJECT_DIR$/batch/gaea-platform-batch.iml" />
       <module fileurl="file://$PROJECT_DIR$/security/gaea-platform-security.iml" filepath="$PROJECT_DIR$/security/gaea-platform-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/web/gaea-platform-web.iml" filepath="$PROJECT_DIR$/web/gaea-platform-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/gaea-web-demo.iml" filepath="$PROJECT_DIR$/demo/gaea-web-demo.iml" />
     </modules>
   </component>
 </project>

@@ -17,6 +17,7 @@
         <module>security</module>
         <module>mybatis</module>
         <module>web</module>
+        <module>demo</module>
     </modules>
     <properties>
         <commons-lang.version>2.6</commons-lang.version>

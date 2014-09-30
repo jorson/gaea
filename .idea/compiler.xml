@@ -30,6 +30,7 @@
         <module name="gaea-platform-batch" />
         <module name="gaea-platform-security" />
         <module name="gaea-platform-web" />
+        <module name="gaea-web-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -42,6 +43,7 @@
       <module name="gaea-platform-batch" target="1.6" />
       <module name="gaea-platform-security" target="1.6" />
       <module name="gaea-platform-web" target="1.6" />
+      <module name="gaea-web-demo" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
