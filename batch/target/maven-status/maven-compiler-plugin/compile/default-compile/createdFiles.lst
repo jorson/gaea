@@ -1,0 +1,11 @@
+gaea\platform\batch\job\runner\impl\ExecuteKettleFileRunner.class
+gaea\platform\batch\job\runner\AbstractJobRunner.class
+gaea\platform\batch\define\PropertiesConstDefine.class
+gaea\platform\batch\communication\CommunicationController.class
+gaea\platform\batch\job\dispatcher\JobDispatcher.class
+gaea\platform\batch\utils\KettleExecuteUtil.class
+gaea\platform\batch\job\bean\Job.class
+gaea\platform\batch\communication\PipeStream.class
+gaea\platform\batch\communication\CommunicationCommandUtil.class
+gaea\platform\batch\JobMainController.class
+gaea\platform\batch\communication\LogLevel.class

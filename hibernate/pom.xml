@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>gaea.foundation</groupId>
-    <artifactId>gaea-gaea.platform.security.access-hibernate</artifactId>
+    <artifactId>gaea-access-hibernate</artifactId>
 
     <properties>
         <mysqlconnector.version>5.1.30</mysqlconnector.version>

@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>gaea.foundation</groupId>
-    <artifactId>gaea-gaea.platform.security.access-mongodb</artifactId>
+    <artifactId>gaea-access-mongodb</artifactId>
 
     <properties>
         <spring-data-mongodb.version>1.5.1.RELEASE</spring-data-mongodb.version>

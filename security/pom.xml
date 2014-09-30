@@ -9,6 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>gaea.foundation</groupId>
     <artifactId>gaea-platform-security</artifactId>
 
     <properties>
@@ -147,7 +148,6 @@
             </exclusions>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>

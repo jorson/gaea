@@ -12,11 +12,11 @@
         <module>core</module>
         <module>mongodb</module>
         <module>redis</module>
-        <module>gaea.platform.security.web</module>
         <module>hibernate</module>
         <module>batch</module>
         <module>security</module>
         <module>mybatis</module>
+        <module>web</module>
     </modules>
     <properties>
         <commons-lang.version>2.6</commons-lang.version>
@@ -39,6 +39,8 @@
         <aspectj.version>1.8.0</aspectj.version>
         <httpclient.version>4.3.3</httpclient.version>
         <gaea.version>1.0.1-SNAPSHOT</gaea.version>
+        <repository.server>192.168.215.17</repository.server>
+
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.test.failure.ignore>true</maven.test.failure.ignore>
@@ -148,12 +150,12 @@
     </dependency>
     <dependency>
         <groupId>org.springframework</groupId>
-        <artifactId>spring-gaea.platform.security.context</artifactId>
+        <artifactId>spring-context</artifactId>
         <version>${spring.version}</version>
     </dependency>
     <dependency>
         <groupId>org.springframework</groupId>
-        <artifactId>spring-gaea.platform.security.context-gaea.platform.security.support</artifactId>
+        <artifactId>spring-context-support</artifactId>
         <version>${spring.version}</version>
     </dependency>
 
@@ -243,4 +245,12 @@
             </plugin>
         </plugins>
     </build>
+
+    <repositories>
+        <repository>
+            <id>nd.hy.repository</id>
+            <name>NetDragon HY Maven Repository</name>
+            <url>http://${repository.server}:8081/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
 </project>

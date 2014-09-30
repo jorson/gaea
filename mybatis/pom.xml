@@ -9,7 +9,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>mybatis</artifactId>
+    <groupId>gaea.foundation</groupId>
+    <artifactId>gaea-access-mybatis</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>gaea.foundation</groupId>
+            <artifactId>gaea-core</artifactId>
+            <version>1.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

@@ -37,8 +37,11 @@
       <module name="gaea-access-hibernate" target="1.6" />
       <module name="gaea-access-mongodb" target="1.6" />
       <module name="gaea-access-mybatis" target="1.6" />
+      <module name="gaea-access-redis" target="1.6" />
       <module name="gaea-core" target="1.6" />
+      <module name="gaea-platform-batch" target="1.6" />
       <module name="gaea-platform-security" target="1.6" />
+      <module name="gaea-platform-web" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

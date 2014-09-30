@@ -3,13 +3,110 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>gaea</artifactId>
-        <groupId>gaea</groupId>
+        <artifactId>gaea-foundation</artifactId>
+        <groupId>gaea.foundation</groupId>
         <version>1.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>gaea-platform-gaea.platform.security.web</artifactId>
+    <groupId>gaea.foundation</groupId>
+    <artifactId>gaea-platform-web</artifactId>
 
+    <properties>
+        <servlet-api.version>2.5</servlet-api.version>
+        <servlet-jsp.version>2.1</servlet-jsp.version>
+        <sitemesh.version>2.4.2</sitemesh.version>
+        <freemarker.version>2.3.20</freemarker.version>
+    </properties>
 
+    <dependencies>
+
+        <dependency>
+            <groupId>gaea.foundation</groupId>
+            <artifactId>gaea-core</artifactId>
+            <version>${gaea.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>gaea.foundation</groupId>
+            <artifactId>gaea-access-hibernate</artifactId>
+            <version>${gaea.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>gaea.foundation</groupId>
+            <artifactId>gaea-access-mongodb</artifactId>
+            <version>${gaea.version}</version>
+        </dependency>
+        <!-- Servlet -->
+        <dependency>
+            <groupId>taglibs</groupId>
+            <artifactId>standard</artifactId>
+            <version>1.1.2</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>${servlet-api.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>jsp-api</artifactId>
+            <version>${servlet-jsp.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <!-- File Upload -->
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.0.1</version>
+        </dependency>
+
+        <!-- Site Mesh -->
+        <dependency>
+            <groupId>opensymphony</groupId>
+            <artifactId>sitemesh</artifactId>
+            <version>${sitemesh.version}</version>
+        </dependency>
+
+        <!-- Free Marker -->
+        <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+            <version>${freemarker.version}</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <finalName>gaea-web-${project.version}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <addMavenDescriptor>false</addMavenDescriptor>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

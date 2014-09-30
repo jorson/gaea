@@ -5,5 +5,4 @@ package gaea.access.mybatis.session;
  */
 public class SessionManager {
 
-
 }
