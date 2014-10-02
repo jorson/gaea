@@ -7,7 +7,7 @@
     <groupId>gaea.foundation</groupId>
     <artifactId>gaea-foundation</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <modules>
         <module>core</module>
         <module>mongodb</module>
@@ -39,8 +39,8 @@
         <c3p0.version>0.9.1.2</c3p0.version>
         <aspectj.version>1.8.0</aspectj.version>
         <httpclient.version>4.3.3</httpclient.version>
-        <gaea.version>1.0.1-SNAPSHOT</gaea.version>
-        <repository.server>192.168.215.17</repository.server>
+        <gaea.version>1.0.1</gaea.version>
+        <repository.server>127.0.0.1</repository.server>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -249,9 +249,17 @@
 
     <repositories>
         <repository>
-            <id>nd.hy.repository</id>
-            <name>NetDragon HY Maven Repository</name>
-            <url>http://${repository.server}:8081/nexus/content/groups/public</url>
+            <id>local.repository</id>
+            <name>Local Maven Repository</name>
+                <url>http://${repository.server}:8881/nexus/content/groups/public</url>
         </repository>
     </repositories>
+
+    <distributionManagement>
+        <repository>
+            <id>local-nexus-release</id>
+            <name>Local Nexus release Repository</name>
+            <url>http://${repository.server}:8881/nexus/content/repositories/releases/</url>
+        </repository>
+    </distributionManagement>
 </project>

@@ -2,11 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b410b95d-7e14-48e1-9104-fa9d429a1f55" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_0_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_javax_mail_api_1_4_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__opensymphony_sitemesh_2_4_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_servicemix_bundles_org_apache_servicemix_bundles_commons_vfs_1_0_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_20.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mozilla_rhino_1_7R3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_0_3_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_0_3_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__pentaho_kettle_kettle_core_4_4_0_stable.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__pentaho_kettle_kettle_db_4_4_0_stable.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__pentaho_kettle_kettle_engine_4_4_0_stable.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\CodeInGit\gaea\.idea\libraries\Maven__com_jhlabs_imaging_01012005.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\CodeInGit\gaea\.idea\libraries\Maven__com_octo_captcha_jcaptcha_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\CodeInGit\gaea\.idea\libraries\Maven__com_octo_captcha_jcaptcha_api_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\CodeInGit\gaea\batch\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="D:\CodeInGit\gaea\batch\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="D:\CodeInGit\gaea\demo\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="D:\CodeInGit\gaea\demo\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="D:\CodeInGit\gaea\mybatis\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="D:\CodeInGit\gaea\mybatis\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="D:\CodeInGit\gaea\redis\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hibernate/gaea-access-hibernate.iml" afterPath="$PROJECT_DIR$/hibernate/gaea-access-hibernate.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mongodb/gaea-access-mongodb.iml" afterPath="$PROJECT_DIR$/mongodb/gaea-access-mongodb.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis/gaea-access-mybatis.iml" afterPath="$PROJECT_DIR$/mybatis/gaea-access-mybatis.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/gaea-core.iml" afterPath="$PROJECT_DIR$/core/gaea-core.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch/gaea-platform-batch.iml" afterPath="$PROJECT_DIR$/batch/gaea-platform-batch.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/gaea-platform-security.iml" afterPath="$PROJECT_DIR$/security/gaea-platform-security.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/gaea-platform-web.iml" afterPath="$PROJECT_DIR$/web/gaea-platform-web.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/gaea-web-demo.iml" afterPath="$PROJECT_DIR$/demo/gaea-web-demo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/gaea_web_demo_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/gaea_web_demo_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/batch/pom.xml" afterPath="$PROJECT_DIR$/batch/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/pom.xml" afterPath="$PROJECT_DIR$/core/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/pom.xml" afterPath="$PROJECT_DIR$/demo/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hibernate/pom.xml" afterPath="$PROJECT_DIR$/hibernate/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mongodb/pom.xml" afterPath="$PROJECT_DIR$/mongodb/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis/pom.xml" afterPath="$PROJECT_DIR$/mybatis/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redis/pom.xml" afterPath="$PROJECT_DIR$/redis/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/security/pom.xml" afterPath="$PROJECT_DIR$/security/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pom.xml" afterPath="$PROJECT_DIR$/web/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gaea.iws" />
@@ -76,90 +118,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/pom.xml">
+      <file leaf-file-name="hibernate.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/config/hibernate.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="28" selection-start="1823" selection-end="1823" vertical-scroll-proportion="0.0" vertical-offset="1687" max-vertical-offset="2486">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1818">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="jdbc.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/config/jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1834" selection-end="1834" vertical-scroll-proportion="1.7941748" vertical-offset="0" max-vertical-offset="5764">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleEntity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/SimpleEntity.java">
+      <file leaf-file-name="system.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/config/system.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="1100">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleEntityController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/SimpleEntityController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="0" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2178">
-              <folding>
-                <element signature="e#2583#2594#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Restrictions.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/query/criterion/Restrictions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="13" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="1210" max-vertical-offset="5852">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleEntityDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/SimpleEntityDao.java">
+      <file leaf-file-name="mongodb.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/config/mongodb.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="32" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleEntityDaoImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/internal/SimpleEntityDaoImpl.java">
+      <file leaf-file-name="applicationContext.database.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.database.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="67" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="88" column="53" selection-start="5494" selection-end="5494" vertical-scroll-proportion="-12.76" vertical-offset="1265" max-vertical-offset="1764">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleEntityServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/internal/SimpleEntityServiceImpl.java">
+      <file leaf-file-name="applicationContext.mongo.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.mongo.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="6" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="1056">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="432">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleEntityService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/SimpleEntityService.java">
+      <file leaf-file-name="applicationContext.security.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.security.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="28" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+            <state line="16" column="55" selection-start="972" selection-end="972" vertical-scroll-proportion="0.6075949" vertical-offset="0" max-vertical-offset="2700">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.transaction.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.transaction.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="17" selection-start="1002" selection-end="1002" vertical-scroll-proportion="-13.68" vertical-offset="0" max-vertical-offset="756">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="46" selection-start="949" selection-end="949" vertical-scroll-proportion="57.6" vertical-offset="1728" max-vertical-offset="2412">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
@@ -179,18 +222,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/specifications/SimpleSpecification.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/SimpleRepository.java" />
-        <option value="$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/AbstractConnectionManager.java" />
-        <option value="$PROJECT_DIR$/mybatis/src/main/java/gaea/access/mybatis/session/SessionManager.java" />
-        <option value="$PROJECT_DIR$/hibernate/pom.xml" />
-        <option value="$PROJECT_DIR$/mongodb/pom.xml" />
-        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/redis/pom.xml" />
-        <option value="$PROJECT_DIR$/web/pom.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/java/gaea/platform/web/converter/StringDateConverter.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/gaea/platform/web/aop/OpenApiAop.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/gaea/platform/web/controller/support/ControllerUtils.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/gaea/platform/web/controller/support/OperationAspectSupport.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/gaea/platform/web/controller/BaseEntityController.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/gaea/platform/web/controller/ControllerOperation.java" />
@@ -211,7 +242,6 @@
         <option value="$PROJECT_DIR$/web/src/main/java/gaea/platform/web/tags/resources/ELTag.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/gaea/platform/web/tags/resources/UrlTag.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/gaea/platform/web/tags/utils/TagUtils.java" />
-        <option value="$PROJECT_DIR$/batch/pom.xml" />
         <option value="$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/communication/LogLevel.java" />
         <option value="$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/communication/CommunicationCommandUtil.java" />
         <option value="$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/communication/CommunicationController.java" />
@@ -220,16 +250,29 @@
         <option value="$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/job/runner/impl/ExecuteKettleFileRunner.java" />
         <option value="$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/job/runner/AbstractJobRunner.java" />
         <option value="$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/utils/KettleExecuteUtil.java" />
-        <option value="$PROJECT_DIR$/security/pom.xml" />
-        <option value="$PROJECT_DIR$/core/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/SimpleEntity.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/SimpleEntityDao.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/SimpleEntityService.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/internal/SimpleEntityServiceImpl.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/internal/SimpleEntityDaoImpl.java" />
         <option value="$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/SimpleEntityController.java" />
+        <option value="$PROJECT_DIR$/mongodb/src/main/java/gaea/access/mongodb/MongodbUtils.java" />
+        <option value="$PROJECT_DIR$/mongodb/src/main/java/gaea/access/mongodb/support/MongodbQueryParser.java" />
+        <option value="$PROJECT_DIR$/batch/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/redis/pom.xml" />
+        <option value="$PROJECT_DIR$/web/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/core/pom.xml" />
+        <option value="$PROJECT_DIR$/hibernate/pom.xml" />
+        <option value="$PROJECT_DIR$/security/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.database.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/resources/gaea.web.demo.simple.mapping/SimpleEntity.hbm.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.web.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.transaction.xml" />
+        <option value="$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.security.xml" />
       </list>
     </option>
   </component>
@@ -280,9 +323,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="32" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -312,6 +355,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -326,290 +371,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gaea_github" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea_github" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea_github" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea_github" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea_github" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="internal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea_github" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea_github" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea_github" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea_github" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea_github" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="query" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea_github" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="query" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="criterion" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -624,7 +391,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/CodeSample/gaea" />
     <property name="FullScreen" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -638,11 +405,11 @@
       <recent name="gaea.access.hibernate" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\CodeInGit\gaea\demo\src\main\resources" />
+      <recent name="D:\CodeInGit\gaea\demo\src\main\resources\gaea.web.demo.simple.mapping" />
+      <recent name="D:\CodeInGit\gaea\demo\src\main\webapp" />
+      <recent name="D:\CodeInGit\gaea\demo\src\main\webapp\gaeademo" />
       <recent name="E:\CodeInGit\gaea_github\batch\src\main\java\gaea\platform\batch" />
-      <recent name="E:\CodeInGit\gaea_github\web\src\main\java\gaea\platform\web" />
-      <recent name="E:\CodeInGit\gaea\security\src\main\java" />
-      <recent name="E:\CodeInGit\gaea\mongodb\src\main\java\gaea\access\mongodb" />
-      <recent name="E:\CodeInGit\gaea\core\src\main\java\gaea\foundation\core" />
     </key>
   </component>
   <component name="RunManager">
@@ -682,6 +449,21 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -860,6 +642,21 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -899,45 +696,50 @@
       <workItem from="1411911334158" duration="1548000" />
       <workItem from="1411945666839" duration="1942000" />
       <workItem from="1412062980297" duration="9411000" />
+      <workItem from="1412084133216" duration="2215000" />
+      <workItem from="1412086382310" duration="140000" />
+      <workItem from="1412086664054" duration="77000" />
+      <workItem from="1412128693794" duration="882000" />
+      <workItem from="1412214141517" duration="5799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19971000" />
+    <option name="totallyTimeSpent" value="29084000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1696" height="1026" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947975" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31723717" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283237" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30751446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Code Review" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30592105" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30592105" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1705379" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20424597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23792094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3256579" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283237" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Review" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -981,396 +783,420 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hibernate/pom.xml">
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/startup/support/SpringContextClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="1760">
+        <state line="5" column="39" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1430" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/controller/support/OperationAspectSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="25" selection-start="3377" selection-end="3377" vertical-scroll-proportion="0.0" vertical-offset="2235" max-vertical-offset="4312" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/communication/CommunicationCommandUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="2" selection-start="162" selection-end="162" vertical-scroll-proportion="0.34736842" vertical-offset="0" max-vertical-offset="1430" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/communication/CommunicationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="18" selection-start="236" selection-end="236" vertical-scroll-proportion="0.27648115" vertical-offset="0" max-vertical-offset="3344" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/communication/LogLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="12" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/communication/PipeStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2926" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/JobMainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="28" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/job/dispatcher/JobDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="37" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.0" vertical-offset="1119" max-vertical-offset="1628" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/job/runner/impl/ExecuteKettleFileRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="21" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="1298" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/job/runner/AbstractJobRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="21" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/utils/KettleExecuteUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="51" selection-start="498" selection-end="498" vertical-scroll-proportion="0.38958707" vertical-offset="3" max-vertical-offset="4488" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/SimpleEntityDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="32" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/SimpleEntityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="28" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/internal/SimpleEntityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="6" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="1056" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/internal/SimpleEntityDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="67" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/SimpleEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="1100" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/query/criterion/Restrictions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="1210" max-vertical-offset="5852" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/SimpleEntityController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2178" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongodb/src/main/java/gaea/access/mongodb/MongodbEntityDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="13" selection-start="1352" selection-end="1352" vertical-scroll-proportion="1.3664922" vertical-offset="162" max-vertical-offset="7650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongodb/src/main/java/gaea/access/mongodb/support/MongodbDaoSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="212" selection-end="212" vertical-scroll-proportion="0.25" vertical-offset="0" max-vertical-offset="576" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongodb/src/main/java/gaea/access/mongodb/MongodbUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="23" selection-start="1648" selection-end="1648" vertical-scroll-proportion="1.3664922" vertical-offset="486" max-vertical-offset="1746" />
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/gaea.foundation:gaea-access-mongodb:1.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>gaea.foundation:gaea-access-mongodb:1.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework:spring-aspects:jar:4.0.3.RELEASE/org.aspectj:aspectjweaver:jar:1.7.4</node>
+            <node x="" y="">gaea.foundation:gaea-access-mongodb:1.0.1-SNAPSHOT</node>
+            <node x="" y="">org.springframework:spring-aop:jar:4.0.3.RELEASE/org.springframework:spring-beans:jar:4.0.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:4.0.3.RELEASE</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/log4j:log4j:jar:1.2.17</node>
+            <node x="" y="">com.google.code.gson:gson:jar:2.2.4</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.5.1.RELEASE/org.mongodb:mongo-java-driver:jar:2.12.1</node>
+            <node x="" y="">org.springframework:spring-tx:jar:4.0.3.RELEASE/org.springframework:spring-beans:jar:4.0.3.RELEASE/org.springframework:spring-core:jar:4.0.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aop:jar:4.0.3.RELEASE</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.7.5</node>
+            <node x="" y="">org.springframework:spring-test:jar:4.0.3.RELEASE</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/cglib:cglib:jar:2.1_3</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/org.aspectj:aspectjrt:jar:1.8.0</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.7.5/org.slf4j:slf4j-api:jar:1.7.5</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/org.springframework:spring-aspects:jar:4.0.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aop:jar:4.0.3.RELEASE/org.springframework:spring-core:jar:4.0.3.RELEASE</node>
+            <node x="" y="">org.apache.httpcomponents:httpclient:jar:4.3.3</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/uk.com.robust-it:cloning:jar:1.9.0</node>
+            <node x="" y="">org.springframework:spring-test:jar:4.0.3.RELEASE/org.springframework:spring-core:jar:4.0.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-expression:jar:4.0.3.RELEASE/org.springframework:spring-core:jar:4.0.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:4.0.3.RELEASE/org.springframework:spring-beans:jar:4.0.3.RELEASE</node>
+            <node x="" y="">org.apache.httpcomponents:httpclient:jar:4.3.3/commons-logging:commons-logging:jar:1.1.3</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.3.RELEASE/org.springframework:spring-beans:jar:4.0.3.RELEASE</node>
+            <node x="" y="">uk.com.robust-it:cloning:jar:1.9.0/org.objenesis:objenesis:jar:1.2</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/org.apache.httpcomponents:httpclient:jar:4.3.3</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/org.springframework:spring-aop:jar:4.0.3.RELEASE</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/commons-codec:commons-codec:jar:1.9</node>
+            <node x="" y="">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.codehaus.jettison:jettison:jar:1.3.3/stax:stax-api:jar:1.0.1</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.5.1.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.7/org.slf4j:slf4j-api:jar:1.7.7</node>
+            <node x="" y="">org.springframework:spring-expression:jar:4.0.3.RELEASE</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/opensymphony:oscache:jar:2.4.1</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.5.1.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.7</node>
+            <node x="" y="">org.springframework:spring-aop:jar:4.0.3.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">opensymphony:oscache:jar:2.4.1/commons-logging:commons-logging:jar:1.1</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/net.sf.ehcache:ehcache:jar:2.8.1</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:4.0.3.RELEASE/org.springframework:spring-core:jar:4.0.3.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.5.1.RELEASE/org.springframework:spring-context:jar:3.2.9.RELEASE</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT</node>
+            <node x="" y="">org.aspectj:aspectjrt:jar:1.8.0</node>
+            <node x="" y="">org.springframework:spring-core:jar:4.0.3.RELEASE</node>
+            <node x="" y="">commons-codec:commons-codec:jar:1.9</node>
+            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.7.5/log4j:log4j:jar:1.2.17</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.3.RELEASE</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/javax.jms:jms:jar:1.1</node>
+            <node x="" y="">redis.clients:jedis:jar:2.4.2/org.apache.commons:commons-pool2:jar:2.0</node>
+            <node x="" y="">org.aspectj:aspectjweaver:jar:1.8.0</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.3.RELEASE/org.springframework:spring-aop:jar:4.0.3.RELEASE</node>
+            <node x="" y="">log4j:log4j:jar:1.2.17</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.5.1.RELEASE/org.springframework.data:spring-data-commons:jar:1.8.1.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.7</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/org.slf4j:slf4j-log4j12:jar:1.7.5</node>
+            <node x="" y="">commons-beanutils:commons-beanutils:jar:1.9.1/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/com.google.code.gson:gson:jar:2.2.4</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/commons-beanutils:commons-beanutils:jar:1.9.1</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.5.1.RELEASE</node>
+            <node x="" y="">org.springframework:spring-tx:jar:4.0.3.RELEASE/org.springframework:spring-core:jar:4.0.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.3.RELEASE/org.springframework:spring-expression:jar:4.0.3.RELEASE</node>
+            <node x="" y="">net.sf.ehcache:ehcache:jar:2.8.1</node>
+            <node x="" y="">net.sf.ehcache:ehcache:jar:2.8.1/org.slf4j:slf4j-api:jar:1.6.6</node>
+            <node x="" y="">commons-beanutils:commons-beanutils:jar:1.9.1</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/org.codehaus.jettison:jettison:jar:1.3.3</node>
+            <node x="" y="">org.mockito:mockito-all:jar:1.9.5</node>
+            <node x="" y="">cglib:cglib:jar:2.1_3/asm:asm:jar:1.5.3</node>
+            <node x="" y="">opensymphony:oscache:jar:2.4.1/javax.jms:jms:jar:1.1</node>
+            <node x="" y="">org.springframework:spring-tx:jar:4.0.3.RELEASE</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.5.1.RELEASE/org.springframework.data:spring-data-commons:jar:1.8.1.RELEASE</node>
+            <node x="" y="">org.apache.httpcomponents:httpclient:jar:4.3.3/org.apache.httpcomponents:httpcore:jar:4.3.2</node>
+            <node x="" y="">commons-beanutils:commons-beanutils:jar:1.9.1/commons-collections:commons-collections:jar:3.2.1</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.5.1.RELEASE/org.springframework.data:spring-data-commons:jar:1.8.1.RELEASE/org.slf4j:slf4j-api:jar:1.7.7</node>
+            <node x="" y="">net.spy:spymemcached:jar:2.10.6</node>
+            <node x="" y="">com.thoughtworks.xstream:xstream:jar:1.4.7</node>
+            <node x="" y="">opensymphony:oscache:jar:2.4.1</node>
+            <node x="" y="">com.thoughtworks.xstream:xstream:jar:1.4.7/xpp3:xpp3_min:jar:1.1.4c</node>
+            <node x="" y="">org.springframework:spring-tx:jar:4.0.3.RELEASE/org.springframework:spring-beans:jar:4.0.3.RELEASE</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/com.thoughtworks.xstream:xstream:jar:1.4.7</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/net.spy:spymemcached:jar:2.10.6</node>
+            <node x="" y="">uk.com.robust-it:cloning:jar:1.9.0</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/redis.clients:jedis:jar:2.4.2</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">com.thoughtworks.xstream:xstream:jar:1.4.7/xmlpull:xmlpull:jar:1.1.3.1</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/org.springframework:spring-context:jar:4.0.3.RELEASE</node>
+            <node x="" y="">cglib:cglib:jar:2.1_3</node>
+            <node x="" y="">redis.clients:jedis:jar:2.4.2</node>
+            <node x="" y="">commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">org.springframework:spring-context-support:jar:4.0.3.RELEASE/org.springframework:spring-context:jar:4.0.3.RELEASE</node>
+            <node x="" y="">org.springframework:spring-context:jar:4.0.3.RELEASE/org.springframework:spring-core:jar:4.0.3.RELEASE</node>
+            <node x="" y="">org.codehaus.jettison:jettison:jar:1.3.3</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/org.springframework:spring-core:jar:4.0.3.RELEASE</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/org.slf4j:slf4j-api:jar:1.7.5</node>
+            <node x="" y="">org.springframework:spring-aspects:jar:4.0.3.RELEASE</node>
+            <node x="" y="">junit:junit:jar:4.11</node>
+            <node x="" y="">org.slf4j:slf4j-api:jar:1.7.5</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/org.aspectj:aspectjweaver:jar:1.8.0</node>
+            <node x="" y="">org.springframework.data:spring-data-mongodb:jar:1.5.1.RELEASE/org.slf4j:slf4j-api:jar:1.7.7</node>
+            <node x="" y="">org.springframework:spring-core:jar:4.0.3.RELEASE/commons-logging:commons-logging:jar:1.1.3</node>
+            <node x="" y="">gaea.foundation:gaea-core:jar:1.0.1-SNAPSHOT/org.springframework:spring-context-support:jar:4.0.3.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.1835192515293271" x="327.0" y="1220.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongodb/gaea-access-mongodb.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="47" selection-start="4377" selection-end="4377" vertical-scroll-proportion="0.34732825" vertical-offset="700" max-vertical-offset="1224" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongodb/src/main/java/gaea/access/mongodb/support/MongodbQueryParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="648" selection-end="648" vertical-scroll-proportion="0.41111112" vertical-offset="122" max-vertical-offset="3762" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gaea.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.2" vertical-offset="432" max-vertical-offset="1116" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/batch/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="1476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2034">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mongodb/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="530" selection-end="530" vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="1628">
+        <state line="7" column="22" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1332">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="275" selection-end="408" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+        <state line="7" column="22" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/redis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="491" selection-end="491" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/converter/StringDateConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="11" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="968">
+        <state line="7" column="22" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="18" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="2574">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/controller/support/ControllerUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="10" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1958">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/controller/BaseEntityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2948">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/controller/ControllerOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1606">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/controller/ErrorControllerResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/converter/DateStringConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="682">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/exception/ControllerException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1606">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/startup/SpringContextLoaderListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2046">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/startup/SpringDispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="792">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/tags/resources/IncludeTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3168">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/tags/resources/StaticUrlProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1694">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/utils/ParamUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1584">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/aop/OpenApiAop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3542">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/controller/ActionRedirector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="7" selection-start="93" selection-end="107" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2266">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="21" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3014">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/controller/OperationSupportController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="318" selection-end="318" vertical-scroll-proportion="0.22027534" vertical-offset="0" max-vertical-offset="6732">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/exception/OpenApiException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="38" selection-end="38" vertical-scroll-proportion="0.05346294" vertical-offset="0" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/tags/resources/AbstractResourceTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.08019441" vertical-offset="0" max-vertical-offset="2046">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/tags/resources/ELTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.08019441" vertical-offset="0" max-vertical-offset="823">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/tags/resources/UrlTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1254">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/tags/utils/TagUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="11" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/startup/support/SpringWebContextClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="45" selection-start="965" selection-end="965" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="924">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/startup/support/SpringContextLoaderForApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="13" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="3256">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/startup/support/SpringContextClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="39" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1430">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/gaea/platform/web/controller/support/OperationAspectSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="25" selection-start="3377" selection-end="3377" vertical-scroll-proportion="0.0" vertical-offset="2235" max-vertical-offset="4312">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="43" selection-start="2567" selection-end="2567" vertical-scroll-proportion="0.0" vertical-offset="1051" max-vertical-offset="1804">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/communication/CommunicationCommandUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="2" selection-start="162" selection-end="162" vertical-scroll-proportion="0.34736842" vertical-offset="0" max-vertical-offset="1430">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/communication/CommunicationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="236" selection-end="236" vertical-scroll-proportion="0.27648115" vertical-offset="0" max-vertical-offset="3344">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/communication/LogLevel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="12" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/communication/PipeStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2926">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/JobMainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/job/dispatcher/JobDispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="37" selection-start="1838" selection-end="1838" vertical-scroll-proportion="0.0" vertical-offset="1119" max-vertical-offset="1628">
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#553#572#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/job/runner/impl/ExecuteKettleFileRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="21" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="1298">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/job/runner/AbstractJobRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="21" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="814">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/batch/src/main/java/gaea/platform/batch/utils/KettleExecuteUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="51" selection-start="498" selection-end="498" vertical-scroll-proportion="0.38958707" vertical-offset="3" max-vertical-offset="4488">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/security/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="46" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0" vertical-offset="166" max-vertical-offset="3718">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="40" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="946">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/SimpleEntityDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="32" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/SimpleEntityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/internal/SimpleEntityServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="6" selection-start="590" selection-end="590" vertical-scroll-proportion="0.0" vertical-offset="110" max-vertical-offset="1056">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/internal/SimpleEntityDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="67" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/SimpleEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="1100">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/query/criterion/Restrictions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="13" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0" vertical-offset="1210" max-vertical-offset="5852">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/SimpleEntityController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2178">
-          <folding>
-            <element signature="e#2583#2594#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="28" selection-start="1823" selection-end="1823" vertical-scroll-proportion="0.0" vertical-offset="1687" max-vertical-offset="2486">
+        <state line="7" column="22" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2106">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1834" selection-end="1834" vertical-scroll-proportion="1.7941748" vertical-offset="0" max-vertical-offset="5764">
+        <state line="259" column="35" selection-start="8928" selection-end="8947" vertical-scroll-proportion="0.0" vertical-offset="4314" max-vertical-offset="4860">
+          <folding>
+            <marker date="1412214764328" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1412214764328" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/support/HibernateTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="44" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/support/HibernateInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="15" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3204">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hibernate/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="38" selection-start="458" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="648">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="41" selection-start="1593" selection-end="1593" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="3096">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/gaeademo/js/role/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3654">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/gaeademo/js/simple/add.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1926">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/pages/js_resource.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="20" selection-start="552" selection-end="552" vertical-scroll-proportion="-6.75" vertical-offset="0" max-vertical-offset="324">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/gaea.web.demo.simple.mapping/SimpleEntity.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="48" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/config/hibernate.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1818">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/config/mongodb.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/config/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/config/system.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.database.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="53" selection-start="5494" selection-end="5494" vertical-scroll-proportion="-12.76" vertical-offset="1265" max-vertical-offset="1764">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.mongo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="524">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="46" selection-start="949" selection-end="949" vertical-scroll-proportion="57.6" vertical-offset="1728" max-vertical-offset="2412">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.transaction.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="17" selection-start="1002" selection-end="1002" vertical-scroll-proportion="-13.68" vertical-offset="0" max-vertical-offset="756">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="55" selection-start="972" selection-end="972" vertical-scroll-proportion="0.6075949" vertical-offset="0" max-vertical-offset="2700">
           <folding />
         </state>
       </provider>
@@ -1381,10 +1207,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>gaea-web-demo:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1392,7 +1220,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1427,7 +1255,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>gaea-web-demo</last-edited>
+          <last-edited>gaea-access-hibernate</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1439,7 +1267,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <last-edited>Maven: org.springframework.data:spring-data-mongodb:1.5.1.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

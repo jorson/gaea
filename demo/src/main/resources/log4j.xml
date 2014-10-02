@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/" debug="false">
+    <appender name="console" class="org.apache.log4j.ConsoleAppender">
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="[%t] %d{HH:mm:ss} %-4r %-5p (%F:%L) %3x - %m%n"/>
+        </layout>
+        <filter class="org.apache.log4j.varia.LevelRangeFilter">
+            <param name="levelMin" value="INFO"/>
+            <param name="levelMax" value="FATAL"/>
+        </filter>
+    </appender>
+    <appender name="file" class="org.apache.log4j.DailyRollingFileAppender">
+        <param name="File" value="/opt/hydemo.log"/>
+        <param name="Append" value="true"/>
+        <param name="Encoding" value="GBK"/>
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern" value="%d %-4r  %-5p [%t] (%F:%L) %10c %3x - %m%n"/>
+        </layout>
+        <filter class="org.apache.log4j.varia.LevelRangeFilter">
+            <param name="levelMin" value="INFO"/>
+            <param name="levelMax" value="ERROR"/>
+        </filter>
+    </appender>
+
+    <category name="org.apache" additivity="true">
+        <priority value="WARN"/>
+    </category>
+    <category name="net.sf.hibernate" additivity="true">
+        <priority value="WARN"/>
+    </category>
+    <category name="com.opensymphony.oscache" additivity="true">
+        <priority value="WARN"/>
+    </category>
+    <category name="org.jgroups.protocols" additivity="true">
+        <priority value="WARN"/>
+    </category>
+    <category name="org.springframework" additivity="true">
+        <priority value="WARN"/>
+    </category>
+
+    <root>
+        <priority value="WARN"/>
+        <appender-ref ref="console"/>
+        <appender-ref ref="file"/>
+    </root>
+</log4j:configuration>

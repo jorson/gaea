@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+    <description>Gaea JSP Static Tag Library</description>
+    <tlib-version>1.0</tlib-version>
+    <short-name>static</short-name>
+    <uri>http://com.huayu.foundation/tags/resource</uri>
+
+    <tag>
+        <description>
+            作为javascript、css的父标签使用，内部引用的静态文件会被压缩，并加上版本号，用于向minify请求资源
+            e.g.
+            <![CDATA[
+                 <%@ taglib prefix="s" uri="http://com.huayu.foundation/tags/security" %>
+                 <r:include>
+                    <r:css value="/addins/bootstrap/v2.2.2/css/bootstrap.css" />
+                    <r:js value="/hydemo/gaea.js"/>
+                 </r:include>
+            ]]>
+        </description>
+        <name>include</name>
+        <tag-class>com.huayu.foundation.web.tags.resources.IncludeTag</tag-class>
+        <body-content>scriptless</body-content>
+    </tag>
+    <tag>
+        <description>
+            引入JAVASCRIPT文件的标签，替代script标签
+            e.g.
+            <![CDATA[
+                 <r:js value="/addins/utils/json2.js"/>
+            ]]>
+        </description>
+        <name>js</name>
+        <tag-class>com.huayu.foundation.web.tags.resources.JsTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <description>
+                必填，设置js文件相对路径 e.g. /addins/utils/json2.js
+            </description>
+            <name>value</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <description>
+            引入CSS文件的标签，替代link标签
+            e.g.
+            <![CDATA[
+                <r:css value="/addins/bootstrap/v2.2.2/css/bootstrap.css"/>
+            ]]>
+        </description>
+        <name>css</name>
+        <tag-class>com.huayu.foundation.web.tags.resources.CssTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <description>
+                必填，设置css文件相对路径 e.g. /addins/jquery/upopup/v1.0/upopup.css
+            </description>
+            <name>value</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+    <tag>
+        <description>
+            处理url，加上静态站地址以及版本号
+            e.g.
+            <![CDATA[
+                <img src=<@r.url value="/mooc/images/backend.png"/>/>
+            ]]>
+        </description>
+        <name>url</name>
+        <tag-class>com.huayu.foundation.web.tags.resources.UrlTag</tag-class>
+        <body-content>empty</body-content>
+        <attribute>
+            <description>
+                必填，设置css文件相对路径 e.g. /mooc/images/backend.png
+            </description>
+            <name>value</name>
+            <required>true</required>
+            <rtexprvalue>true</rtexprvalue>
+        </attribute>
+    </tag>
+
+
+    <!--<function>-->
+        <!--<description>-->
+            <!--处理url，加上静态站地址以及版本号-->
+            <!--e.g.-->
+            <!--<![CDATA[-->
+                <!--<img src=${r:url("/image/bootstrap.jpg")}/>-->
+            <!--]]>-->
+        <!--</description>-->
+        <!--<name>url</name>-->
+        <!--<function-class>com.huayu.foundation.web.tags.resources.ELTag</function-class>-->
+        <!--<function-signature>-->
+            <!--java.lang.String url(java.lang.String)-->
+        <!--</function-signature>-->
+    <!--</function>-->
+</taglib>

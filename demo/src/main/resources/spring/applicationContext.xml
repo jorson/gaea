@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+    <context:annotation-config/>
+
+    <!-- properties文件统一定义在这里，避免定义多个PropertyPlaceholderConfigurer导致冲突 -->
+    <bean id="propertyConfigurer"
+          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:config/hibernate.properties</value>
+                <value>classpath:config/jdbc.properties</value>
+                <value>classpath:config/mongodb.properties</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- 这个配置包含所有Spring的配置 -->
+    <import resource="classpath*:/spring/applicationContext.database.xml"/>
+    <import resource="classpath*:/spring/applicationContext.transaction.xml"/>
+    <import resource="classpath*:/spring/applicationContext.security.xml"/>
+    <import resource="classpath*:/spring/applicationContext.web.xml"/>
+    <import resource="classpath*:/spring/applicationContext.mongo.xml"/>
+    <!--<import resource="applicationContext.web.xml"></import>-->
+</beans>

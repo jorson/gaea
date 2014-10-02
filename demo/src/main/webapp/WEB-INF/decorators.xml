@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/decorators">
+
+    <decorator name="default-decorator" page="decorator.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+
+    <!-- Excludes will never be decorated by Sitemesh. -->
+    <excludes>
+        <!-- Any resources inside a folder matching
+        the name exclude will not be decorated. -->
+        <!--<pattern>*/exclude/*</pattern>-->
+        <!-- The folder from the context root
+         /data/paintext will not be decorated -->
+        <!--<pattern>/data/plaintext/*</pattern>-->
+        <!-- Any file with the
+        js、css、txt、jpg、bmp、gif、xml
+        extension will not be decorated. -->
+        <pattern>*.js</pattern>
+        <pattern>*.css</pattern>
+        <pattern>*.txt</pattern>
+        <pattern>*.jpg</pattern>
+        <pattern>*.bmp</pattern>
+        <pattern>*.xml</pattern>
+    </excludes>
+
+</decorators>
