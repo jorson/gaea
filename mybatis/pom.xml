@@ -12,11 +12,25 @@
     <groupId>gaea.foundation</groupId>
     <artifactId>gaea-access-mybatis</artifactId>
 
+    <properties>
+        <mybatis.version>3.2.7</mybatis.version>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>gaea.foundation</groupId>
             <artifactId>gaea-core</artifactId>
-            <version>1.0.1-SNAPSHOT</version>
+            <version>${gaea.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>${mybatis.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>commons-dbcp</groupId>
+                    <artifactId>commons-dbcp</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 </project>
