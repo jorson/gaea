@@ -2,10 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b410b95d-7e14-48e1-9104-fa9d429a1f55" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/AbstractConnectionManager.java" afterPath="$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/AbstractConnectionManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis/src/main/java/gaea/access/mybatis/session/SessionManager.java" afterPath="$PROJECT_DIR$/mybatis/src/main/java/gaea/access/mybatis/session/SessionManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis/gaea-access-mybatis.iml" afterPath="$PROJECT_DIR$/mybatis/gaea-access-mybatis.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis/pom.xml" afterPath="$PROJECT_DIR$/mybatis/pom.xml" />
+      <change type="DELETED" beforePath="E:\CodeInGit\gaea_github\core\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\CodeInGit\gaea_github\core\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="E:\CodeInGit\gaea_github\core\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="E:\CodeInGit\gaea_github\core\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="E:\CodeInGit\gaea_github\core\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="E:\CodeInGit\gaea_github\hibernate\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\CodeInGit\gaea_github\hibernate\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="E:\CodeInGit\gaea_github\hibernate\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="E:\CodeInGit\gaea_github\hibernate\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="E:\CodeInGit\gaea_github\hibernate\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="E:\CodeInGit\gaea_github\mongodb\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\CodeInGit\gaea_github\mongodb\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="E:\CodeInGit\gaea_github\mongodb\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="E:\CodeInGit\gaea_github\mongodb\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="E:\CodeInGit\gaea_github\mongodb\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="E:\CodeInGit\gaea_github\security\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="E:\CodeInGit\gaea_github\security\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="E:\CodeInGit\gaea_github\web\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="E:\CodeInGit\gaea_github\web\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gaea.iws" />
@@ -78,16 +93,153 @@
       <file leaf-file-name="SessionManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/gaea/access/mybatis/session/SessionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="49" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="828">
+            <state line="40" column="0" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.0" vertical-offset="880" max-vertical-offset="1012">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Configuration.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.7/mybatis-3.2.7.jar!/org/apache/ibatis/session/Configuration.class">
+      <file leaf-file-name="Configuration.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.7/mybatis-3.2.7-sources.jar!/org/apache/ibatis/session/Configuration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="5580">
+            <state line="98" column="33" selection-start="4516" selection-end="4516" vertical-scroll-proportion="0.0" vertical-offset="554" max-vertical-offset="13882">
+              <folding>
+                <element signature="e#0#27753#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#5078#5086#0" expanded="false" />
+                <element signature="e#6998#7006#0" expanded="false" />
+                <element signature="e#7218#7239#0" expanded="false" />
+                <element signature="e#7326#7344#0" expanded="false" />
+                <element signature="e#7433#7452#0" expanded="false" />
+                <element signature="e#7535#7551#0" expanded="false" />
+                <element signature="e#7824#7840#0" expanded="false" />
+                <element signature="e#9722#9723#0" expanded="false" />
+                <element signature="e#9748#9749#0" expanded="false" />
+                <element signature="e#9796#9797#0" expanded="false" />
+                <element signature="e#9832#9833#0" expanded="false" />
+                <element signature="e#9878#9879#0" expanded="false" />
+                <element signature="e#9902#9903#0" expanded="false" />
+                <element signature="e#9907#9937#0" expanded="false" />
+                <element signature="e#10163#10164#0" expanded="false" />
+                <element signature="e#10198#10199#0" expanded="false" />
+                <element signature="e#10265#10266#0" expanded="false" />
+                <element signature="e#10319#10320#0" expanded="false" />
+                <element signature="e#10354#10355#0" expanded="false" />
+                <element signature="e#10381#10382#0" expanded="false" />
+                <element signature="e#10431#10432#0" expanded="false" />
+                <element signature="e#10469#10470#0" expanded="false" />
+                <element signature="e#10516#10517#0" expanded="false" />
+                <element signature="e#10553#10554#0" expanded="false" />
+                <element signature="e#10625#10626#0" expanded="false" />
+                <element signature="e#10683#10684#0" expanded="false" />
+                <element signature="e#10732#10733#0" expanded="false" />
+                <element signature="e#10773#10774#0" expanded="false" />
+                <element signature="e#10852#10853#0" expanded="false" />
+                <element signature="e#10918#10919#0" expanded="false" />
+                <element signature="e#10963#10964#0" expanded="false" />
+                <element signature="e#11000#11001#0" expanded="false" />
+                <element signature="e#11071#11072#0" expanded="false" />
+                <element signature="e#11129#11130#0" expanded="false" />
+                <element signature="e#11178#11179#0" expanded="false" />
+                <element signature="e#11219#11220#0" expanded="false" />
+                <element signature="e#11298#11299#0" expanded="false" />
+                <element signature="e#11364#11365#0" expanded="false" />
+                <element signature="e#11601#11602#0" expanded="false" />
+                <element signature="e#11629#11630#0" expanded="false" />
+                <element signature="e#11686#11687#0" expanded="false" />
+                <element signature="e#11726#11727#0" expanded="false" />
+                <element signature="e#11783#11784#0" expanded="false" />
+                <element signature="e#11819#11820#0" expanded="false" />
+                <element signature="e#11900#11901#0" expanded="false" />
+                <element signature="e#11956#11957#0" expanded="false" />
+                <element signature="e#11999#12000#0" expanded="false" />
+                <element signature="e#12034#12035#0" expanded="false" />
+                <element signature="e#12101#12102#0" expanded="false" />
+                <element signature="e#12155#12156#0" expanded="false" />
+                <element signature="e#12439#12440#0" expanded="false" />
+                <element signature="e#12481#12482#0" expanded="false" />
+                <element signature="e#12527#12528#0" expanded="false" />
+                <element signature="e#12565#12566#0" expanded="false" />
+                <element signature="e#12638#12639#0" expanded="false" />
+                <element signature="e#12698#12699#0" expanded="false" />
+                <element signature="e#12748#12749#0" expanded="false" />
+                <element signature="e#12790#12791#0" expanded="false" />
+                <element signature="e#12871#12872#0" expanded="false" />
+                <element signature="e#12939#12940#0" expanded="false" />
+                <element signature="e#12991#12992#0" expanded="false" />
+                <element signature="e#13030#13031#0" expanded="false" />
+                <element signature="e#13109#13110#0" expanded="false" />
+                <element signature="e#13171#13172#0" expanded="false" />
+                <element signature="e#13212#13213#0" expanded="false" />
+                <element signature="e#13245#13246#0" expanded="false" />
+                <element signature="e#13308#13309#0" expanded="false" />
+                <element signature="e#13358#13359#0" expanded="false" />
+                <element signature="e#13408#13409#0" expanded="false" />
+                <element signature="e#13444#13445#0" expanded="false" />
+                <element signature="e#13518#13519#0" expanded="false" />
+                <element signature="e#13574#13575#0" expanded="false" />
+                <element signature="e#13611#13612#0" expanded="false" />
+                <element signature="e#13640#13641#0" expanded="false" />
+                <element signature="e#13695#13696#0" expanded="false" />
+                <element signature="e#13737#13738#0" expanded="false" />
+                <element signature="e#13786#13787#0" expanded="false" />
+                <element signature="e#13826#13827#0" expanded="false" />
+                <element signature="e#13903#13904#0" expanded="false" />
+                <element signature="e#13967#13968#0" expanded="false" />
+                <element signature="e#14006#14007#0" expanded="false" />
+                <element signature="e#14037#14038#0" expanded="false" />
+                <element signature="e#14096#14097#0" expanded="false" />
+                <element signature="e#14142#14143#0" expanded="false" />
+                <element signature="e#14191#14192#0" expanded="false" />
+                <element signature="e#14223#14224#0" expanded="false" />
+                <element signature="e#14292#14293#0" expanded="false" />
+                <element signature="e#14340#14341#0" expanded="false" />
+                <element signature="e#14382#14383#0" expanded="false" />
+                <element signature="e#14414#14415#0" expanded="false" />
+                <element signature="e#14476#14477#0" expanded="false" />
+                <element signature="e#14524#14525#0" expanded="false" />
+                <element signature="e#14562#14563#0" expanded="false" />
+                <element signature="e#14588#14589#0" expanded="false" />
+                <element signature="e#14640#14641#0" expanded="false" />
+                <element signature="e#14676#14677#0" expanded="false" />
+                <element signature="e#14733#14734#0" expanded="false" />
+                <element signature="e#14769#14770#0" expanded="false" />
+                <element signature="e#14822#14823#0" expanded="false" />
+                <element signature="e#14856#14857#0" expanded="false" />
+                <element signature="e#14933#14934#0" expanded="false" />
+                <element signature="e#14964#14965#0" expanded="false" />
+                <element signature="e#15009#15010#0" expanded="false" />
+                <element signature="e#15039#15040#0" expanded="false" />
+                <element signature="e#15102#15103#0" expanded="false" />
+                <element signature="e#15146#15147#0" expanded="false" />
+                <element signature="e#15205#15206#0" expanded="false" />
+                <element signature="e#15242#15243#0" expanded="false" />
+                <element signature="e#15326#15327#0" expanded="false" />
+                <element signature="e#15384#15385#0" expanded="false" />
+                <element signature="e#15570#15571#0" expanded="false" />
+                <element signature="e#15603#15604#0" expanded="false" />
+                <element signature="e#20503#20504#0" expanded="false" />
+                <element signature="e#20540#20541#0" expanded="false" />
+                <element signature="e#20742#20743#0" expanded="false" />
+                <element signature="e#20778#20779#0" expanded="false" />
+                <element signature="e#20975#20976#0" expanded="false" />
+                <element signature="e#21012#21013#0" expanded="false" />
+                <element signature="e#21305#21306#0" expanded="false" />
+                <element signature="e#21339#21340#0" expanded="false" />
+                <element signature="e#21707#21708#0" expanded="false" />
+                <element signature="e#21736#21737#0" expanded="false" />
+                <element signature="e#26379#26409#0" expanded="false" />
+                <element signature="e#27706#27707#0" expanded="false" />
+                <element signature="e#27738#27739#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="56" selection-start="1824" selection-end="1872" vertical-scroll-proportion="0.66023165" vertical-offset="582" max-vertical-offset="5940">
               <folding />
             </state>
           </provider>
@@ -96,57 +248,8 @@
       <file leaf-file-name="AbstractConnectionManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/AbstractConnectionManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="37" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="936">
+            <state line="51" column="0" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1254">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MybatisSessionFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/gaea/access/mybatis/session/MybatisSessionFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="34" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleSessionFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/shard/SimpleSessionFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleSession.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/shard/SimpleSession.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="20" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="540">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleSpecification.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/SimpleSpecification.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="36" selection-start="119" selection-end="119" vertical-scroll-proportion="0.16759777" vertical-offset="0" max-vertical-offset="537">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractSimpleRepository.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/shard/AbstractSimpleRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1026">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -154,7 +257,7 @@
       <file leaf-file-name="SimpleRepository.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/SimpleRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="17" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="558">
+            <state line="9" column="17" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="682">
               <folding />
             </state>
           </provider>
@@ -163,8 +266,10 @@
       <file leaf-file-name="PropertiesLoaderUtils.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/utils/PropertiesLoaderUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="54" selection-start="1124" selection-end="1134" vertical-scroll-proportion="0.0" vertical-offset="846" max-vertical-offset="1080">
-              <folding />
+            <state line="23" column="20" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="373" max-vertical-offset="1232">
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -217,7 +322,6 @@
         <option value="$PROJECT_DIR$/mongodb/pom.xml" />
         <option value="$PROJECT_DIR$/redis/pom.xml" />
         <option value="$PROJECT_DIR$/web/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/core/pom.xml" />
         <option value="$PROJECT_DIR$/hibernate/pom.xml" />
         <option value="$PROJECT_DIR$/security/pom.xml" />
@@ -234,6 +338,7 @@
         <option value="$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/shard/strategy/SimpleSessionFactory.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/shard/SimpleSessionFactory.java" />
         <option value="$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/shard/SimpleSession.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -280,13 +385,37 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
       </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="gaea-foundation" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="gaea-foundation" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1378" />
-    <option name="height" value="744" />
+    <option name="y" value="32" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -330,147 +459,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mybatis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="session" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gaea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="repository" />
+              <option name="myItemId" value="gaea_github" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -551,21 +540,6 @@
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -763,21 +737,6 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <method />
-    </configuration>
     <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -804,15 +763,17 @@
       <workItem from="1412128693794" duration="882000" />
       <workItem from="1412214141517" duration="10485000" />
       <workItem from="1412410009125" duration="3918000" />
+      <workItem from="1412733360629" duration="2148000" />
+      <workItem from="1413193755037" duration="759000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37688000" />
+    <option name="totallyTimeSpent" value="40595000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="32" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -829,20 +790,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30592105" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Review" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2041116" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20354523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32085168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3256579" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25794622" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32485548" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283237" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30592105" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Code Review" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -886,6 +847,80 @@
     </option>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/gaea/access/mybatis/session/SessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1012">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.7/mybatis-3.2.7.jar!/org/apache/ibatis/session/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="6820">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/AbstractConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1254">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/SimpleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="682">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/utils/PropertiesLoaderUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="20" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="418" max-vertical-offset="1232">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/gaea/access/mybatis/session/SessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.7/mybatis-3.2.7.jar!/org/apache/ibatis/session/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="6820">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/AbstractConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/SimpleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="682">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/utils/PropertiesLoaderUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="54" selection-start="1124" selection-end="1134" vertical-scroll-proportion="0.0" vertical-offset="1034" max-vertical-offset="1320">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/gaea/web/demo/simple/SimpleEntityService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="28" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374" />
@@ -1084,13 +1119,6 @@
         <state line="7" column="22" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2106" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="259" column="35" selection-start="8928" selection-end="8947" vertical-scroll-proportion="0.0" vertical-offset="4314" max-vertical-offset="4860">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hibernate/src/main/java/gaea/access/hibernate/support/HibernateTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="44" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15480" />
@@ -1103,16 +1131,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hibernate/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="38" selection-start="458" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440">
-          <folding />
-        </state>
+        <state line="11" column="38" selection-start="458" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1440" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="648">
-          <folding />
-        </state>
+        <state line="10" column="0" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="648" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/security/pom.xml">
@@ -1120,100 +1144,14 @@
         <state line="41" column="41" selection-start="1593" selection-end="1593" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="3096" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/gaeademo/js/role/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3654" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/gaeademo/js/simple/add.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1926" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/webapp/pages/js_resource.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="552" selection-end="552" vertical-scroll-proportion="-6.75" vertical-offset="0" max-vertical-offset="324" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/gaea.web.demo.simple.mapping/SimpleEntity.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="48" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/config/hibernate.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1818" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/config/mongodb.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="537" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/config/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/config/system.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.database.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="53" selection-start="5494" selection-end="5494" vertical-scroll-proportion="-12.76" vertical-offset="1265" max-vertical-offset="1764">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.mongo.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="524">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="46" selection-start="949" selection-end="949" vertical-scroll-proportion="-2.6519337" vertical-offset="1728" max-vertical-offset="2412">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.transaction.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="17" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.62983423" vertical-offset="0" max-vertical-offset="756">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/src/main/resources/spring/applicationContext.security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="55" selection-start="972" selection-end="972" vertical-scroll-proportion="0.58064514" vertical-offset="0" max-vertical-offset="2700">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="20" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="738">
-          <folding />
-        </state>
+        <state line="23" column="20" selection-start="850" selection-end="850" vertical-scroll-proportion="0.0" vertical-offset="98" max-vertical-offset="738" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.7/mybatis-3.2.7.jar!/org/apache/ibatis/session/SqlSessionFactoryBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="98" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="576">
-          <folding />
-        </state>
+        <state line="25" column="98" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="576" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.7/mybatis-3.2.7.jar!/org/apache/ibatis/session/Configuration.class">
@@ -1225,15 +1163,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/gaea/access/mybatis/session/SessionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="49" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="828">
+        <state line="40" column="0" selection-start="1181" selection-end="1181" vertical-scroll-proportion="0.0" vertical-offset="880" max-vertical-offset="1012">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/utils/PropertiesLoaderUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="54" selection-start="1124" selection-end="1134" vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1008">
-          <folding />
+        <state line="23" column="20" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="373" max-vertical-offset="1232">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1244,55 +1184,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/shard/AbstractSimpleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1026">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/AbstractConnectionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="37" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="936">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/src/main/java/gaea/access/mybatis/session/MybatisSessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="34" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/shard/SimpleSessionFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+        <state line="51" column="0" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0" vertical-offset="1122" max-vertical-offset="1254">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/support/Pager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="251" selection-end="251" vertical-scroll-proportion="-4.292365" vertical-offset="2521" max-vertical-offset="3960">
-          <folding />
-        </state>
+        <state line="13" column="13" selection-start="251" selection-end="251" vertical-scroll-proportion="-4.292365" vertical-offset="2521" max-vertical-offset="3960" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/shard/SimpleSession.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.7/mybatis-3.2.7-sources.jar!/org/apache/ibatis/session/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="20" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="540">
+        <state line="98" column="33" selection-start="4516" selection-end="4516" vertical-scroll-proportion="0.0" vertical-offset="554" max-vertical-offset="13882">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#27753#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#5078#5086#0" expanded="false" />
+            <element signature="e#6998#7006#0" expanded="false" />
+            <element signature="e#7218#7239#0" expanded="false" />
+            <element signature="e#7326#7344#0" expanded="false" />
+            <element signature="e#7433#7452#0" expanded="false" />
+            <element signature="e#7535#7551#0" expanded="false" />
+            <element signature="e#7824#7840#0" expanded="false" />
+            <element signature="e#9722#9723#0" expanded="false" />
+            <element signature="e#9748#9749#0" expanded="false" />
+            <element signature="e#9796#9797#0" expanded="false" />
+            <element signature="e#9832#9833#0" expanded="false" />
+            <element signature="e#9878#9879#0" expanded="false" />
+            <element signature="e#9902#9903#0" expanded="false" />
+            <element signature="e#9907#9937#0" expanded="false" />
+            <element signature="e#10163#10164#0" expanded="false" />
+            <element signature="e#10198#10199#0" expanded="false" />
+            <element signature="e#10265#10266#0" expanded="false" />
+            <element signature="e#10319#10320#0" expanded="false" />
+            <element signature="e#10354#10355#0" expanded="false" />
+            <element signature="e#10381#10382#0" expanded="false" />
+            <element signature="e#10431#10432#0" expanded="false" />
+            <element signature="e#10469#10470#0" expanded="false" />
+            <element signature="e#10516#10517#0" expanded="false" />
+            <element signature="e#10553#10554#0" expanded="false" />
+            <element signature="e#10625#10626#0" expanded="false" />
+            <element signature="e#10683#10684#0" expanded="false" />
+            <element signature="e#10732#10733#0" expanded="false" />
+            <element signature="e#10773#10774#0" expanded="false" />
+            <element signature="e#10852#10853#0" expanded="false" />
+            <element signature="e#10918#10919#0" expanded="false" />
+            <element signature="e#10963#10964#0" expanded="false" />
+            <element signature="e#11000#11001#0" expanded="false" />
+            <element signature="e#11071#11072#0" expanded="false" />
+            <element signature="e#11129#11130#0" expanded="false" />
+            <element signature="e#11178#11179#0" expanded="false" />
+            <element signature="e#11219#11220#0" expanded="false" />
+            <element signature="e#11298#11299#0" expanded="false" />
+            <element signature="e#11364#11365#0" expanded="false" />
+            <element signature="e#11601#11602#0" expanded="false" />
+            <element signature="e#11629#11630#0" expanded="false" />
+            <element signature="e#11686#11687#0" expanded="false" />
+            <element signature="e#11726#11727#0" expanded="false" />
+            <element signature="e#11783#11784#0" expanded="false" />
+            <element signature="e#11819#11820#0" expanded="false" />
+            <element signature="e#11900#11901#0" expanded="false" />
+            <element signature="e#11956#11957#0" expanded="false" />
+            <element signature="e#11999#12000#0" expanded="false" />
+            <element signature="e#12034#12035#0" expanded="false" />
+            <element signature="e#12101#12102#0" expanded="false" />
+            <element signature="e#12155#12156#0" expanded="false" />
+            <element signature="e#12439#12440#0" expanded="false" />
+            <element signature="e#12481#12482#0" expanded="false" />
+            <element signature="e#12527#12528#0" expanded="false" />
+            <element signature="e#12565#12566#0" expanded="false" />
+            <element signature="e#12638#12639#0" expanded="false" />
+            <element signature="e#12698#12699#0" expanded="false" />
+            <element signature="e#12748#12749#0" expanded="false" />
+            <element signature="e#12790#12791#0" expanded="false" />
+            <element signature="e#12871#12872#0" expanded="false" />
+            <element signature="e#12939#12940#0" expanded="false" />
+            <element signature="e#12991#12992#0" expanded="false" />
+            <element signature="e#13030#13031#0" expanded="false" />
+            <element signature="e#13109#13110#0" expanded="false" />
+            <element signature="e#13171#13172#0" expanded="false" />
+            <element signature="e#13212#13213#0" expanded="false" />
+            <element signature="e#13245#13246#0" expanded="false" />
+            <element signature="e#13308#13309#0" expanded="false" />
+            <element signature="e#13358#13359#0" expanded="false" />
+            <element signature="e#13408#13409#0" expanded="false" />
+            <element signature="e#13444#13445#0" expanded="false" />
+            <element signature="e#13518#13519#0" expanded="false" />
+            <element signature="e#13574#13575#0" expanded="false" />
+            <element signature="e#13611#13612#0" expanded="false" />
+            <element signature="e#13640#13641#0" expanded="false" />
+            <element signature="e#13695#13696#0" expanded="false" />
+            <element signature="e#13737#13738#0" expanded="false" />
+            <element signature="e#13786#13787#0" expanded="false" />
+            <element signature="e#13826#13827#0" expanded="false" />
+            <element signature="e#13903#13904#0" expanded="false" />
+            <element signature="e#13967#13968#0" expanded="false" />
+            <element signature="e#14006#14007#0" expanded="false" />
+            <element signature="e#14037#14038#0" expanded="false" />
+            <element signature="e#14096#14097#0" expanded="false" />
+            <element signature="e#14142#14143#0" expanded="false" />
+            <element signature="e#14191#14192#0" expanded="false" />
+            <element signature="e#14223#14224#0" expanded="false" />
+            <element signature="e#14292#14293#0" expanded="false" />
+            <element signature="e#14340#14341#0" expanded="false" />
+            <element signature="e#14382#14383#0" expanded="false" />
+            <element signature="e#14414#14415#0" expanded="false" />
+            <element signature="e#14476#14477#0" expanded="false" />
+            <element signature="e#14524#14525#0" expanded="false" />
+            <element signature="e#14562#14563#0" expanded="false" />
+            <element signature="e#14588#14589#0" expanded="false" />
+            <element signature="e#14640#14641#0" expanded="false" />
+            <element signature="e#14676#14677#0" expanded="false" />
+            <element signature="e#14733#14734#0" expanded="false" />
+            <element signature="e#14769#14770#0" expanded="false" />
+            <element signature="e#14822#14823#0" expanded="false" />
+            <element signature="e#14856#14857#0" expanded="false" />
+            <element signature="e#14933#14934#0" expanded="false" />
+            <element signature="e#14964#14965#0" expanded="false" />
+            <element signature="e#15009#15010#0" expanded="false" />
+            <element signature="e#15039#15040#0" expanded="false" />
+            <element signature="e#15102#15103#0" expanded="false" />
+            <element signature="e#15146#15147#0" expanded="false" />
+            <element signature="e#15205#15206#0" expanded="false" />
+            <element signature="e#15242#15243#0" expanded="false" />
+            <element signature="e#15326#15327#0" expanded="false" />
+            <element signature="e#15384#15385#0" expanded="false" />
+            <element signature="e#15570#15571#0" expanded="false" />
+            <element signature="e#15603#15604#0" expanded="false" />
+            <element signature="e#20503#20504#0" expanded="false" />
+            <element signature="e#20540#20541#0" expanded="false" />
+            <element signature="e#20742#20743#0" expanded="false" />
+            <element signature="e#20778#20779#0" expanded="false" />
+            <element signature="e#20975#20976#0" expanded="false" />
+            <element signature="e#21012#21013#0" expanded="false" />
+            <element signature="e#21305#21306#0" expanded="false" />
+            <element signature="e#21339#21340#0" expanded="false" />
+            <element signature="e#21707#21708#0" expanded="false" />
+            <element signature="e#21736#21737#0" expanded="false" />
+            <element signature="e#26379#26409#0" expanded="false" />
+            <element signature="e#27706#27707#0" expanded="false" />
+            <element signature="e#27738#27739#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/main/java/gaea/foundation/core/repository/SimpleSpecification.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="36" selection-start="119" selection-end="119" vertical-scroll-proportion="0.16759777" vertical-offset="0" max-vertical-offset="537">
+        <state line="42" column="56" selection-start="1824" selection-end="1872" vertical-scroll-proportion="0.66023165" vertical-offset="582" max-vertical-offset="5940">
           <folding />
         </state>
       </provider>
