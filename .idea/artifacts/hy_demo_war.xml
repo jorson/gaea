@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hy-demo:war">
+    <output-path>$PROJECT_DIR$/hy-demo/target</output-path>
+    <root id="archive" name="gaea.war">
+      <element id="artifact" artifact-name="hy-demo:war exploded" />
+    </root>
+  </artifact>
+</component>

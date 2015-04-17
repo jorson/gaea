@@ -1,46 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>gaea.foundation</groupId>
-    <artifactId>gaea-foundation</artifactId>
+    <groupId>com.nd.gaea</groupId>
+    <artifactId>gaea</artifactId>
+    <version>2.0.0</version>
     <packaging>pom</packaging>
-    <version>1.0.1</version>
+
+
     <modules>
-        <module>core</module>
-        <module>mongodb</module>
-        <module>redis</module>
-        <module>hibernate</module>
-        <module>batch</module>
-        <module>security</module>
-        <module>mybatis</module>
-        <module>web</module>
-        <module>demo</module>
+        <module>gaea-utility</module>
+        <module>gaea-core</module>
+        <module>gaea-odata-api</module>
+        <module>gaea-odata</module>
+        <module>gaea-hibernate-mapping</module>
+        <module>gaea-hibernate</module>
+        <module>gaea-mongodb</module>
+        <module>gaea-web</module>
     </modules>
     <properties>
-        <commons-lang.version>2.6</commons-lang.version>
-        <commons-beanutils.version>1.9.1</commons-beanutils.version>
-        <commons-codec.version>1.9</commons-codec.version>
         <spring.version>4.0.3.RELEASE</spring.version>
-        <log4j.version>1.2.17</log4j.version>
-        <slf4j.version>1.7.5</slf4j.version>
-        <xstream.version>1.4.7</xstream.version>
-        <gson.version>2.2.4</gson.version>
         <mockito.version>1.9.5</mockito.version>
-        <oscache.version>2.4.1</oscache.version>
-        <ehcache.version>2.8.1</ehcache.version>
-        <jedis.version>2.4.2</jedis.version>
-        <spymemcached.version>2.10.6</spymemcached.version>
-        <mybatis.version>3.2.7</mybatis.version>
-        <mybatis-spring.version>1.2.2</mybatis-spring.version>
-        <hibernate.version>4.3.5.Final</hibernate.version>
+        <commons-logging.version>1.2</commons-logging.version>
+        <junit.version>4.12</junit.version>
+        <log4j.version>1.2.17</log4j.version>
+        <sl4j.version>1.7.7</sl4j.version>
+        <servlet-api.version>3.1.0</servlet-api.version>
+        <dom4j.version>1.6.1</dom4j.version>
+        <mysql.version>5.1.34</mysql.version>
+        <commonslang3.version>3.3.1</commonslang3.version>
+        <antlr.version>4.1</antlr.version>
+        <commons.codec.version>1.9</commons.codec.version>
+        <mockito.version>1.9.5</mockito.version>
+        <commonsio.version>2.4</commonsio.version>
+        <modelmapper.version>0.7.3</modelmapper.version>
         <c3p0.version>0.9.1.2</c3p0.version>
+        <bonecp.version>0.8.0.RELEASE</bonecp.version>
+        <hibernate.version>4.3.6.Final</hibernate.version>
         <aspectj.version>1.8.0</aspectj.version>
-        <httpclient.version>4.3.3</httpclient.version>
-        <gaea.version>1.0.1</gaea.version>
-        <repository.server>127.0.0.1</repository.server>
+
+        <gaea.version>2.0.0</gaea.version>
+        <repository.server>192.168.205.45</repository.server>
+        <!--<repository.server>localhost</repository.server>-->
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -48,167 +50,173 @@
         <compilerArgument>-Xlint:unchecked</compilerArgument>
     </properties>
 
-    <dependencies>
-    <dependency>
-        <groupId>commons-lang</groupId>
-        <artifactId>commons-lang</artifactId>
-        <version>${commons-lang.version}</version>
-    </dependency>
-    <dependency>
-        <groupId>commons-beanutils</groupId>
-        <artifactId>commons-beanutils</artifactId>
-        <version>${commons-beanutils.version}</version>
-    </dependency>
-    <dependency>
-        <groupId>commons-codec</groupId>
-        <artifactId>commons-codec</artifactId>
-        <version>${commons-codec.version}</version>
-    </dependency>
-    <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-api</artifactId>
-        <version>${slf4j.version}</version>
-    </dependency>
-    <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-log4j12</artifactId>
-        <version>${slf4j.version}</version>
-    </dependency>
-    <dependency>
-        <groupId>log4j</groupId>
-        <artifactId>log4j</artifactId>
-        <version>${log4j.version}</version>
-    </dependency>
-    <dependency>
-        <groupId>org.apache.httpcomponents</groupId>
-        <artifactId>httpclient</artifactId>
-        <version>${httpclient.version}</version>
-        <exclusions>
-            <exclusion>
-                <groupId>commons-codec</groupId>
-                <artifactId>commons-codec</artifactId>
-            </exclusion>
-        </exclusions>
-    </dependency>
+    <distributionManagement>
+        <repository>
+            <id>nd.hy.releases</id>
+            <name>NetDragon HY Release Repository</name>
+            <url>http://${repository.server}:8081/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>nd.hy.snapshots</id>
+            <name>NetDragon HY Snapshot Repository</name>
+            <url>http://${repository.server}:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
+    <dependencyManagement>
+        <dependencies>
+            <!-- Gaea -->
+            <dependency>
+                <groupId>com.nd.gaea</groupId>
+                <artifactId>gaea-utility</artifactId>
+                <version>${gaea.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.nd.gaea</groupId>
+                <artifactId>gaea-core</artifactId>
+                <version>${gaea.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.nd.gaea</groupId>
+                <artifactId>gaea-odata-api</artifactId>
+                <version>${gaea.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.nd.gaea</groupId>
+                <artifactId>gaea-odata</artifactId>
+                <version>${gaea.version}</version>
+            </dependency>
 
-    <!--用于深拷贝-->
-    <dependency>
-        <groupId>uk.com.robust-it</groupId>
-        <artifactId>cloning</artifactId>
-        <version>1.9.0</version>
-    </dependency>
-
-    <dependency>
-        <groupId>org.codehaus.jettison</groupId>
-        <artifactId>jettison</artifactId>
-        <version>1.3.3</version>
-    </dependency>
-    <dependency>
-        <groupId>com.google.code.gson</groupId>
-        <artifactId>gson</artifactId>
-        <version>${gson.version}</version>
-    </dependency>
-    <dependency>
-        <groupId>com.thoughtworks.xstream</groupId>
-        <artifactId>xstream</artifactId>
-        <version>${xstream.version}</version>
-    </dependency>
-
-    <!-- Cache -->
-    <dependency>
-        <groupId>opensymphony</groupId>
-        <artifactId>oscache</artifactId>
-        <version>${oscache.version}</version>
-        <exclusions>
-            <exclusion>
+            <!-- Web -->
+            <dependency>
                 <groupId>javax.servlet</groupId>
-                <artifactId>servlet-api</artifactId>
-            </exclusion>
-        </exclusions>
-    </dependency>
-    <dependency>
-        <groupId>net.sf.ehcache</groupId>
-        <artifactId>ehcache</artifactId>
-        <version>${ehcache.version}</version>
-    </dependency>
-    <dependency>
-        <groupId>net.spy</groupId>
-        <artifactId>spymemcached</artifactId>
-        <version>${spymemcached.version}</version>
-    </dependency>
-    <dependency>
-        <groupId>redis.clients</groupId>
-        <artifactId>jedis</artifactId>
-        <version>${jedis.version}</version>
-    </dependency>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>${servlet-api.version}</version>
+            </dependency>
 
-    <!--Spring-->
-    <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-core</artifactId>
-        <version>${spring.version}</version>
-    </dependency>
-    <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-context</artifactId>
-        <version>${spring.version}</version>
-    </dependency>
-    <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-context-support</artifactId>
-        <version>${spring.version}</version>
-    </dependency>
+            <!-- Code Generator -->
+            <dependency>
+                <groupId>org.antlr</groupId>
+                <artifactId>antlr4-runtime</artifactId>
+                <version>${antlr.version}</version>
+            </dependency>
 
-    <!-- Spring AOP + AspectJ -->
-    <dependency>
-        <groupId>org.aspectj</groupId>
-        <artifactId>aspectjrt</artifactId>
-        <version>${aspectj.version}</version>
-    </dependency>
-    <dependency>
-        <groupId>org.aspectj</groupId>
-        <artifactId>aspectjweaver</artifactId>
-        <version>${aspectj.version}</version>
-    </dependency>
+            <!-- Commons -->
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commonsio.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commonslang3.version}</version>
+            </dependency>
 
-    <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-aop</artifactId>
-        <version>${spring.version}</version>
-    </dependency>
-    <dependency>
-        <groupId>org.springframework</groupId>
-        <artifactId>spring-aspects</artifactId>
-        <version>${spring.version}</version>
-    </dependency>
-    <dependency>
-        <groupId>cglib</groupId>
-        <artifactId>cglib</artifactId>
-        <version>2.1_3</version>
-    </dependency>
+            <!-- Spring -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-core</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-web</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+
+            <!-- Data & DataSource -->
+            <dependency>
+                <groupId>dom4j</groupId>
+                <artifactId>dom4j</artifactId>
+                <version>${dom4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hibernate</groupId>
+                <artifactId>hibernate-core</artifactId>
+                <version>${hibernate.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.modelmapper</groupId>
+                <artifactId>modelmapper</artifactId>
+                <version>${modelmapper.version}</version>
+            </dependency>
+
+            <!-- Test -->
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>${junit.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.mockito</groupId>
+                <artifactId>mockito-all</artifactId>
+                <version>${mockito.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-test</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+
+            <!-- Log -->
+            <dependency>
+                <groupId>commons-logging</groupId>
+                <artifactId>commons-logging</artifactId>
+                <version>${commons-logging.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-simple</artifactId>
+                <version>${sl4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>${log4j.version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
+        <!--通用的依赖-->
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+        </dependency>
+        <!--test-->
         <dependency>
             <groupId>org.mockito</groupId>
             <artifactId>mockito-all</artifactId>
-            <version>${mockito.version}</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.11</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>${spring.version}</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 
     <build>
-        <finalName>gaea-foundation</finalName>
+        <finalName>gaea</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
@@ -227,8 +235,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
                     <encoding>UTF-8</encoding>
-                    <source>1.6</source>
-                    <target>1.6</target>
+                    <source>1.7</source>
+                    <target>1.7</target>
                 </configuration>
                 <version>3.1</version>
             </plugin>
@@ -244,22 +252,24 @@
                 </configuration>
                 <version>2.17</version>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.10.1</version>
+                <configuration>
+                    <aggregate>true</aggregate>
+                    <!--<reportOutputDirectory>javadoc</reportOutputDirectory>-->
+                    <!--<destDir>api</destDir>-->
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
     <repositories>
         <repository>
-            <id>local.repository</id>
-            <name>Local Maven Repository</name>
-                <url>http://${repository.server}:8881/nexus/content/groups/public</url>
+            <id>nd.hy.repository</id>
+            <name>NetDragon HY Maven Repository</name>
+            <url>http://${repository.server}:8081/nexus/content/groups/public</url>
         </repository>
     </repositories>
-
-    <distributionManagement>
-        <repository>
-            <id>local-nexus-release</id>
-            <name>Local Nexus release Repository</name>
-            <url>http://${repository.server}:8881/nexus/content/repositories/releases/</url>
-        </repository>
-    </distributionManagement>
 </project>

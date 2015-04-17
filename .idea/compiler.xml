@@ -22,29 +22,33 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="gaea-access-hibernate" />
-        <module name="gaea-access-mongodb" />
-        <module name="gaea-access-mybatis" />
-        <module name="gaea-access-redis" />
+        <module name="gaea-cache" />
         <module name="gaea-core" />
-        <module name="gaea-platform-batch" />
-        <module name="gaea-platform-security" />
-        <module name="gaea-platform-web" />
-        <module name="gaea-web-demo" />
+        <module name="gaea-hibernate" />
+        <module name="gaea-hibernate-mapping" />
+        <module name="gaea-mongodb" />
+        <module name="gaea-odata" />
+        <module name="gaea-odata-api" />
+        <module name="gaea-utility" />
+        <module name="gaea-web" />
+        <module name="gaea-webpage" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="gaea" target="1.6" />
-      <module name="gaea-access-hibernate" target="1.6" />
-      <module name="gaea-access-mongodb" target="1.6" />
-      <module name="gaea-access-mybatis" target="1.6" />
-      <module name="gaea-access-redis" target="1.6" />
-      <module name="gaea-core" target="1.6" />
-      <module name="gaea-platform-batch" target="1.6" />
-      <module name="gaea-platform-security" target="1.6" />
-      <module name="gaea-platform-web" target="1.6" />
-      <module name="gaea-web-demo" target="1.6" />
+      <module name="gaea" target="1.7" />
+      <module name="gaea-cache" target="1.7" />
+      <module name="gaea-core" target="1.7" />
+      <module name="gaea-core-odata" target="1.7" />
+      <module name="gaea-hibernate" target="1.7" />
+      <module name="gaea-hibernate-mapping" target="1.7" />
+      <module name="gaea-mongodb" target="1.7" />
+      <module name="gaea-odata" target="1.7" />
+      <module name="gaea-odata-api" target="1.7" />
+      <module name="gaea-rest" target="1.7" />
+      <module name="gaea-utility" target="1.7" />
+      <module name="gaea-web" target="1.7" />
+      <module name="gaea-webpage" target="1.7" />
+      <module name="gaea-webt" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
-

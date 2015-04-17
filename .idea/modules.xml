@@ -3,16 +3,16 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/gaea.iml" filepath="$PROJECT_DIR$/gaea.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hibernate/gaea-access-hibernate.iml" filepath="$PROJECT_DIR$/hibernate/gaea-access-hibernate.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mongodb/gaea-access-mongodb.iml" filepath="$PROJECT_DIR$/mongodb/gaea-access-mongodb.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mybatis/gaea-access-mybatis.iml" filepath="$PROJECT_DIR$/mybatis/gaea-access-mybatis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/redis/gaea-access-redis.iml" filepath="$PROJECT_DIR$/redis/gaea-access-redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/core/gaea-core.iml" filepath="$PROJECT_DIR$/core/gaea-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/batch/gaea-platform-batch.iml" filepath="$PROJECT_DIR$/batch/gaea-platform-batch.iml" />
-      <module fileurl="file://$PROJECT_DIR$/security/gaea-platform-security.iml" filepath="$PROJECT_DIR$/security/gaea-platform-security.iml" />
-      <module fileurl="file://$PROJECT_DIR$/web/gaea-platform-web.iml" filepath="$PROJECT_DIR$/web/gaea-platform-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo/gaea-web-demo.iml" filepath="$PROJECT_DIR$/demo/gaea-web-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gaea-cache/gaea-cache.iml" filepath="$PROJECT_DIR$/gaea-cache/gaea-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gaea-core/gaea-core.iml" filepath="$PROJECT_DIR$/gaea-core/gaea-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gaea-hibernate/gaea-hibernate.iml" filepath="$PROJECT_DIR$/gaea-hibernate/gaea-hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gaea-hibernate-mapping/gaea-hibernate-mapping.iml" filepath="$PROJECT_DIR$/gaea-hibernate-mapping/gaea-hibernate-mapping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gaea-mongodb/gaea-mongodb.iml" filepath="$PROJECT_DIR$/gaea-mongodb/gaea-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gaea-odata/gaea-odata.iml" filepath="$PROJECT_DIR$/gaea-odata/gaea-odata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gaea-odata-api/gaea-odata-api.iml" filepath="$PROJECT_DIR$/gaea-odata-api/gaea-odata-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gaea-utility/gaea-utility.iml" filepath="$PROJECT_DIR$/gaea-utility/gaea-utility.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gaea-web/gaea-web.iml" filepath="$PROJECT_DIR$/gaea-web/gaea-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gaea-webpage/gaea-webpage.iml" filepath="$PROJECT_DIR$/gaea-webpage/gaea-webpage.iml" />
     </modules>
   </component>
 </project>
-

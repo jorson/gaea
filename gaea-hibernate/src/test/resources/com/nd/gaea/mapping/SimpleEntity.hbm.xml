@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.nd.gaea.repository.hibernate.object">
+    <class name="com.nd.gaea.repository.hibernate.object.SimpleEntity" table="simpleentity" lazy="false" dynamic-insert="true" dynamic-update="true">
+        <id name="id" column="id" type="long" unsaved-value="null">
+            <generator class="identity"/>
+        </id>
+
+        <property name="name" column="name" type="string" not-null="true"/>
+        <property name="birthday" column="birthday" type="java.util.Date" not-null="false"/>
+        <property name="age" column="age" type="integer" not-null="true"/>
+        <property name="remark" column="remark" type="string" not-null="true"/>
+        <property name="status" column="status" type="integer" not-null="true"/>
+        <property name="jsonEntity" column="jsonData">
+            <type name="com.nd.gaea.repository.hibernate.usertype.JsonUserType">
+                <param name="entityClass">com.nd.gaea.repository.hibernate.object.JsonEntity</param>
+            </type>
+        </property>
+    </class>
+</hibernate-mapping>
